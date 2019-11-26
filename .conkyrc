@@ -1,0 +1,52 @@
+conky.config = {
+own_window = true,
+own_window_type = 'desktop',
+ -- own_window_type = 'normal',
+own_window_transparent = true,
+ -- own_window_hints = 'undecorated,below,skip_taskbar,skip_pager',
+own_window_colour = '#000000',
+own_window_class = 'Conky',
+own_window_title = 'Geddy Conky',
+gap_x = 50,--## left | right
+gap_y = 40,--## up | down
+alignment = 'top_left',
+use_xft = true,
+font = 'Noto Sans:Regular:size=12',
+xftalpha = 1,
+override_utf8_locale = true,
+uppercase = false,
+draw_shades = false,--yes
+default_shade_color = 'black',
+draw_outline = false,-- amplifies text if yes
+default_outline_color = 'black',
+default_color = '#ffffff',-- White
+color0 = '#2f343f',-- Black
+color1 = '#bf616a',-- Red
+color2 = '#a3be8c',-- Green
+color3 = '#ebcb8b',-- Yellow
+color4 = '#81a1c1',-- Blue
+draw_borders = false,
+stippled_borders = 5,
+border_inner_margin = 20,
+border_outer_margin = 0,
+border_width = 2,
+draw_graph_borders = true,--no
+background = true,
+use_spacer = 'none',
+no_buffers = true,
+short_units = true,
+pad_percents = 2,
+double_buffer = true,
+update_interval = 1,
+};
+conky.text = [[
+${voffset 6}${offset 20}${color}${font Noto Sans:Regula:size=24}${time %H:%M}${font}${color}
+${font Noto Sans:Regular:size=24}${voffset 20}${time %A, %-d %B}${font}
+${image ~/.config/conky/geddy/res/bg.png -p 0,5}
+${image ~/.config/conky/geddy/images/froly/hdd.png -p 5,132 -s 16x16} ${offset 20}${fs_used /} / ${fs_size /}\
+${image ~/.config/conky/geddy/images/froly/ram.png -p 140,132 -s 16x16} ${offset 35}$mem / $memmax\
+${image ~/.config/conky/geddy/images/froly/cpu.png -p 280,133 -s 16x16} ${offset 35}${cpu cpu0}%
+
+
+]];
+

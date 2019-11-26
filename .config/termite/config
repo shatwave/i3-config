@@ -1,0 +1,75 @@
+[options]
+allow_bold = true
+audible_bell = false
+browser = xdg-open
+clickable_url = true
+cursor_blink = system
+cursor_shape = block
+dynamic_title = false
+filter_unmatched_urls = true
+font =Iosevka Regular 12
+geometry = 480x480
+highlight = #2f2f2f
+icon_name = terminal
+modify_other_keys = false
+mouse_autohide = true
+scroll_on_output = false
+scroll_on_keystroke = true
+scrollback_lines = 15000
+size_hints = false
+search_wrap = true
+urgent_on_bell = true
+padding = 2
+
+[hints]
+#font = Monospace 12
+#foreground = #dcdccc
+#background = #3f3f3f
+#active_foreground = #e68080
+#active_background = #3f3f3f
+#padding = 2
+#border = #3f3f3f
+#border_width = 10
+#roundness = 2.0
+
+[colors]
+foreground      = #E5E5E5
+foreground_bold = #E5E5E5
+#foreground_dim   = 
+cursor          = #bf616a
+#cursor_foreground = #dcdccc
+# 20% background transparency (requires a compositor)
+#background = rgba(75, 75, 75, 1.0)
+background = #2F343F
+
+# black
+color0  = #2d2d2d
+color8  = #747369
+
+# red
+color1  = #f2777a
+color9  = #f2777a
+
+# green
+color2  = #99cc99
+color10 = #99cc99
+
+# yellow
+color3  = #ffcc66
+color11 = #ffcc66
+
+# blue
+color4  = #6699cc
+color12 = #6699cc
+
+# magenta
+color5  = #cc99cc
+color13 = #cc99cc
+
+# cyan
+color6  = #66cccc
+color14 = #66cccc
+
+# white
+color7  = #d3d0c8
+color15 = #f2f0ec

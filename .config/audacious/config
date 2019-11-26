@@ -1,0 +1,63 @@
+
+[alsa]
+mixer-element=Master
+
+[audacious]
+equalizer_active=TRUE
+filepopup_showprogressbar=TRUE
+soft_clipping=TRUE
+
+[audgui]
+about_win=55,118,582,372
+close_dialog_add=TRUE
+eq_preset_win=535,249,288,218
+equalizer_win=533,214,293,288
+filebrowser_win=198,-2,1014,635
+filesel_path=/home/cyberpunk_7/Music
+info_win=398,178,560,459
+url_opener_win=484,258,384,197
+
+[gtkui]
+column_widths=68,200,234,44,175,175,28,100,29,68,275,275,275,36,275
+infoarea_show_vis=FALSE
+infoarea_visible=FALSE
+menu_visible=FALSE
+player_height=713
+player_width=1336
+player_x=13
+player_y=13
+playlist_columns=filename length
+playlist_tabs_visible=FALSE
+statusbar_visible=FALSE
+
+[gtkui-layout]
+item0_name=Search Tool
+item0_pos=0,-1,-1,202,540
+item1_name=Playlist Manager
+item1_pos=-1,0,522,284,188
+item2_name=LyricWiki Plugin
+item2_pos=-1,0,0,284,188
+item3_name=Blur Scope
+item3_pos=-1,916,15,425,703
+item4_name=OpenGL Spectrum Analyzer
+item4_pos=-1,916,15,425,703
+item5_name=Spectrum Analyzer
+item5_pos=-1,916,15,425,703
+item6_name=Album Art
+item6_pos=-1,101,0,159,164
+item_count=7
+
+[history]
+entry0=http://srv2.mihan.xyz/s1/FullAlbum/Irani/Amin%20Fayyaz/Amin%20Fayyaz%20&%20Mostafa%20Fattahi%20-%20Omidvaram%20[1387]/Amin_Fayyaz_Mostafa_Fattahi-01.omidvaram.mp3
+entry1=http://srv2.mihan.xyz/s1/FullAlbum/Irani/Amin%20Fayyaz/Amin%20Fayyaz%20&%20Mostafa%20Fattahi%20-%20Omidvaram%20[1387]/
+
+[skins]
+mainwin_font=Noto Sans 8
+player_x=16
+player_y=16
+playlist_font=Noto Sans 8
+skin=/usr/share/audacious/Skins/Classic1.3
+vis_type=1
+
+[skins-layout]
+albumart=0,522,288,192

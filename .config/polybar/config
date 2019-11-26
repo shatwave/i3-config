@@ -1,0 +1,225 @@
+
+; Colors
+
+[colors]
+background = #aaa2f343f
+background-alt = #444
+foreground = #dfdfdf
+foreground-alt = #51595a
+primary = #bc6069
+secondary = #bc6069
+power = #bc6069
+promo = #bc6069
+alert = #bc6069
+reb = #bc6069
+reb-alt = #bc6069
+green = #bc6069
+brown = #bc6069
+yellow = #bc6069
+blue = #bc6069
+purple = #bc6069
+
+#[colors]
+#yellow = #bc6069
+#blue = #bc6069
+#primary = #ffb52a
+#secondary = #e60053
+#power = #ffa39c
+#promo = #79b0e7
+#alert = #bc6069
+#reb = #77e695
+#reb-alt = #233227
+#green = #008000
+#brown = #8B6914
+#Purple = #800080
+; Bar
+; You can Change the name of your bar in your config file script launch by polybar top &
+; editing the modules that says [bar/top and bottom]
+
+
+[module/xwindow]
+type = internal/xwindow
+format-prefix-foreground = ${colors.foreground-alt}
+label = "%title:0:30:...%"
+label-underline = ${colors.foreground-alt}
+format-prefix-underline = ${colors.foreground-alt}
+
+
+[bar/bottom]
+;monitor = ${env:MONITOR:HDMI-1}
+width = 100%
+height = 20
+radius = 0.0
+bottom =true
+fixed-center = false
+background = ${colors.background}
+foreground = ${colors.foreground}
+line-size = 2
+line-color = #f00
+padding-left = 2
+padding-right = 2
+module-margin-left = 1
+module-margin-right = 2
+
+
+; Fonts
+
+font-0 = mplus Nerd Font:pixelsize=9;1
+font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
+font-2 = siji:pixelsize=10;1
+
+
+; Modules
+
+modules-left = text i3 
+modules-center = 
+modules-right = xkeyboard filesystem cpu memory volume wlan date 
+tray-position = right
+tray-padding = 2
+
+
+[module/text]
+type = custom/text
+content = "Manjaro Linux"
+content-foreground = ${colors.alert}
+
+[module/memory]
+type = internal/memory
+interval = 2
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+label = Mem : %percentage_used%%
+label-underline = ${colors.brown}
+
+[module/i3]
+type = internal/i3
+format = <label-state> <label-mode>
+index-sort = true
+wrapping-scroll = false
+
+label-mode-padding = 1
+label-mode-foreground = ${colors.foreground}
+label-mode-background = ${colors.background}
+
+label-focused = %name% 
+;label-focused-background = ${colors.reb-alt}
+label-focused-foreground = ${colors.foreground}
+label-focused-underline = ${colors.alert}
+label-focused-padding = 1
+
+label-unfocused = %name%
+label-unfocused-padding = 1
+
+label-visible = %name%
+label-visible-background = ${colors.background}
+label-visible-underline = ${colors.background}
+label-visible-padding = 1
+
+label-urgent = %name%
+label-urgent-background = ${colors.background}
+label-urgent-foreground = ${colors.foreground}
+label-urgent-padding = 1
+
+
+[module/date]
+type = internal/date
+interval = 5
+date =
+date-alt = "%a %d %b"
+time = "%H:%M"
+;format-prefix = 
+format-prefix-foreground = ${colors.foreground-alt}
+format-underline = ${colors.blue}
+label =Date : %date%%time%
+
+
+[module/volume]
+type = internal/volume
+;speaker-mixer = Speaker
+;headphone-mixer = Headphone
+;headphone-id = 9
+format-volume = Volume : <label-volume>
+;format-volume-prefix = " "
+;format-volume-suffix = " "
+label-muted = muted
+label-muted-foreground = ${colors.foreground}
+format-volume-prefix-foreground = ${colors.foreground-alt}
+format-volume-underline = ${colors.yellow}
+label-muted-underline = ${colors.purple}
+
+[module/xkeyboard]
+type = internal/xkeyboard
+blacklist-0 = num lock
+format-prefix-foreground = ${colors.foreground-alt}
+format-prefix-underline = ${colors.secondary}
+label-layout = Layout : %layout%
+label-layout-underline = ${colors.secondary}
+label-indicator-padding = 2
+label-indicator-margin = 1
+label-indicator-background = ${colors.secondary}
+label-indicator-underline = ${colors.secondary}
+
+[module/wlan]
+type = internal/network
+interface = wlp1s0
+format-connected = <label-connected>
+label-connected = Wlan : %essid%
+label-connected-underline = ${colors.power}
+format-disconnected = <label-disconnected>
+label-disconnected = Disconnected
+label-disconnected-underline = ${colors.promo}
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+label = Cpu : %percentage:2%%
+label-underline = ${colors.green}
+
+[module/filesystem]
+type = internal/fs
+mount-0 = /home
+label-mounted = Home : %percentage_used%% 
+label-mounted-underline = ${colors.yellow}
+
+[module/powermenu]
+type = custom/menu
+format-spacing = 1
+label-open = Manjaro
+label-open-foreground = ${colors.secondary}
+label-close = >>> Cancel
+label-close-foreground = ${colors.promo}
+label-separator = *
+label-separator-foreground = ${colors.foreground-alt}
+menu-0-0 = Reloading
+menu-0-0-exec = menu-open-1
+menu-0-0-underline = ${colors.reb}
+menu-0-1 = Shutdown
+menu-0-1-exec = menu-open-2
+menu-0-1-underline = ${colors.power}
+menu-1-0 = Closing all applications, shutting down the computer
+menu-1-0-exec = sudo reboot
+menu-1-1 = Cancel 
+menu-1-1-exec = menu-open-0
+menu-2-0 = Close all applications and shutdown your computer
+menu-2-0-exec = sudo poweroff
+menu-2-1 = Cancel
+menu-2-1-exec = menu-open-0
+
+[module/mpd]
+type = internal/mpd
+format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
+icon-prev = 
+icon-stop = 
+icon-play = 
+icon-pause = 
+icon-next = 
+label-song-maxlen = 50
+label-song-ellipsis = true
+
+[settings]
+screenchange-reload = true
+
+[global/wm]
+margin-bottom = 2

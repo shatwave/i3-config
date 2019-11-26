@@ -1,0 +1,241 @@
+sw_volume: 70
+audio_device_state:0:pulse audio
+audio_device_state:1:my_fifo
+audio_device_state:1:Alsa for audio sound card
+state: play
+current: 7
+time: 3.984000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:احمد شاملو/Ahmad Shamlou - Ashare Nima Youshij/Ahmad Shamlou - Ashare Nima Youshij/01 Afsaneh.mp3
+1:احمد شاملو/Ahmad Shamlou - Ashare Nima Youshij/Ahmad Shamlou - Ashare Nima Youshij/02 Ay Adamha.mp3
+2:احمد شاملو/Ahmad Shamlou - Ashare Nima Youshij/Ahmad Shamlou - Ashare Nima Youshij/03 Dar Forooband.mp3
+3:احمد شاملو/Ahmad Shamlou - Ashare Nima Youshij/Ahmad Shamlou - Ashare Nima Youshij/04 Darvag.mp3
+4:احمد شاملو/Ahmad Shamlou - Ashare Nima Youshij/Ahmad Shamlou - Ashare Nima Youshij/05 Hast shab.mp3
+5:احمد شاملو/Ahmad Shamlou - Ashare Nima Youshij/Ahmad Shamlou - Ashare Nima Youshij/06 Hengam Keh Geryeh M.mp3
+6:احمد شاملو/Ahmad Shamlou - Ashare Nima Youshij/Ahmad Shamlou - Ashare Nima Youshij/07 Khoroos Mikhaanad.mp3
+7:احمد شاملو/Ahmad Shamlou - Ashare Nima Youshij/Ahmad Shamlou - Ashare Nima Youshij/08 Mahtab.mp3
+8:احمد شاملو/Ahmad Shamlou - Ashare Nima Youshij/Ahmad Shamlou - Ashare Nima Youshij/09 Ojaghe Sard.mp3
+9:احمد شاملو/Ahmad Shamlou - Ashare Nima Youshij/Ahmad Shamlou - Ashare Nima Youshij/10 Qoqnos.mp3
+10:احمد شاملو/Ahmad Shamlou - Baghe Ayeneh [1382]/Ahmad Shamlou - Baghe Ayeneh [1382]/01 Track 01.mp3
+11:احمد شاملو/Ahmad Shamlou - Baghe Ayeneh [1382]/Ahmad Shamlou - Baghe Ayeneh [1382]/02 Track 02.mp3
+12:احمد شاملو/Ahmad Shamlou - Baghe Ayeneh [1382]/Ahmad Shamlou - Baghe Ayeneh [1382]/03 Track 03.mp3
+13:احمد شاملو/Ahmad Shamlou - Baghe Ayeneh [1382]/Ahmad Shamlou - Baghe Ayeneh [1382]/04 Track 04.mp3
+14:احمد شاملو/Ahmad Shamlou - Baghe Ayeneh [1382]/Ahmad Shamlou - Baghe Ayeneh [1382]/05 Track 05.mp3
+15:احمد شاملو/Ahmad Shamlou - Baghe Ayeneh [1382]/Ahmad Shamlou - Baghe Ayeneh [1382]/06 Track 06.mp3
+16:احمد شاملو/Ahmad Shamlou - Baghe Ayeneh [1382]/Ahmad Shamlou - Baghe Ayeneh [1382]/07 Track 07.mp3
+17:احمد شاملو/Ahmad Shamlou - Baghe Ayeneh [1382]/Ahmad Shamlou - Baghe Ayeneh [1382]/08 Track 08.mp3
+18:احمد شاملو/Ahmad Shamlou - Baghe Ayeneh [1382]/Ahmad Shamlou - Baghe Ayeneh [1382]/09 Track 09.mp3
+19:احمد شاملو/Ahmad Shamlou - Baghe Ayeneh [1382]/Ahmad Shamlou - Baghe Ayeneh [1382]/10 Track 10.mp3
+20:احمد شاملو/Ahmad Shamlou - Baghe Ayeneh [1382]/Ahmad Shamlou - Baghe Ayeneh [1382]/11 Track 11.mp3
+21:احمد شاملو/Ahmad Shamlou - Baghe Ayeneh [1382]/Ahmad Shamlou - Baghe Ayeneh [1382]/12 Track 12.mp3
+22:احمد شاملو/Ahmad Shamlou - Baghe Ayeneh [1382]/Ahmad Shamlou - Baghe Ayeneh [1382]/13 Track 13.mp3
+23:احمد شاملو/Ahmad Shamlou - Chidaneh Sepideh Dam/Ahmad Shamlou - Chidaneh Sepideh Dam/01 track.MP3
+24:احمد شاملو/Ahmad Shamlou - Chidaneh Sepideh Dam/Ahmad Shamlou - Chidaneh Sepideh Dam/02 track.MP3
+25:احمد شاملو/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh -  12 Dar Astaneh.mp3
+26:احمد شاملو/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh - 02 Dar Astaneh.mp3
+27:احمد شاملو/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh - 03 Dar Astaneh.mp3
+28:احمد شاملو/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh - 04 Dar Astaneh.mp3
+29:احمد شاملو/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh - 05 Dar Astaneh.mp3
+30:احمد شاملو/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh - 06 Dar Astaneh.mp3
+31:احمد شاملو/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh - 07 Dar Astaneh.mp3
+32:احمد شاملو/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh - 08 Dar Astaneh.mp3
+33:احمد شاملو/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh - 09 Dar Astaneh.mp3
+34:احمد شاملو/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh - 10 Dar Astaneh.mp3
+35:احمد شاملو/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh - 11 Dar Astaneh.mp3
+36:احمد شاملو/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh - 13 Dar Astaneh.mp3
+37:احمد شاملو/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh - 14 Dar Astaneh.mp3
+38:احمد شاملو/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh - 15 Dar Astaneh.mp3
+39:احمد شاملو/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh - 16 Dar Astaneh.mp3
+40:احمد شاملو/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh - 17 Dar Astaneh.mp3
+41:احمد شاملو/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh - 18 Dar Astaneh.mp3
+42:احمد شاملو/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh - 19 Dar Astaneh.mp3
+43:احمد شاملو/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh - 20 Dar Astaneh.mp3
+44:احمد شاملو/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh - 21 Dar Astaneh.mp3
+45:احمد شاملو/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh - 22 Dar Astaneh.mp3
+46:احمد شاملو/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh - 23 Dar Astaneh.mp3
+47:احمد شاملو/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh - 24 Dar Astaneh.mp3
+48:احمد شاملو/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh - 25 Dar Astaneh.mp3
+49:احمد شاملو/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh - 26 Dar Astaneh.mp3
+50:احمد شاملو/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh [1382]/Ahmad Shamlou - Dar Astaneh - 27 Dar Astaneh.mp3
+51:احمد شاملو/Ahmad Shamlou - Ebrahim Dar Atash/Ahmad Shamlou - Ebrahim Dar Atash/01 Track 1.mp3
+52:احمد شاملو/Ahmad Shamlou - Ebrahim Dar Atash/Ahmad Shamlou - Ebrahim Dar Atash/02 Track 2.mp3
+53:احمد شاملو/Ahmad Shamlou - Ebrahim Dar Atash/Ahmad Shamlou - Ebrahim Dar Atash/03 Track 3.mp3
+54:احمد شاملو/Ahmad Shamlou - Ebrahim Dar Atash/Ahmad Shamlou - Ebrahim Dar Atash/04Track 4.mp3
+55:احمد شاملو/Ahmad Shamlou - Ebrahim Dar Atash/Ahmad Shamlou - Ebrahim Dar Atash/05 Track 5.mp3
+56:احمد شاملو/Ahmad Shamlou - Ebrahim Dar Atash/Ahmad Shamlou - Ebrahim Dar Atash/06 Track 6.mp3
+57:احمد شاملو/Ahmad Shamlou - Ebrahim Dar Atash/Ahmad Shamlou - Ebrahim Dar Atash/07 Track 7.mp3
+58:احمد شاملو/Ahmad Shamlou - Ebrahim Dar Atash/Ahmad Shamlou - Ebrahim Dar Atash/08 Track 8.mp3
+59:احمد شاملو/Ahmad Shamlou - Ebrahim Dar Atash/Ahmad Shamlou - Ebrahim Dar Atash/09 Track 9.mp3
+60:احمد شاملو/Ahmad Shamlou - Ebrahim Dar Atash/Ahmad Shamlou - Ebrahim Dar Atash/10 Track 10.mp3
+61:احمد شاملو/Ahmad Shamlou - Ebrahim Dar Atash/Ahmad Shamlou - Ebrahim Dar Atash/11Track 11.mp3
+62:احمد شاملو/Ahmad Shamlou - Ebrahim Dar Atash/Ahmad Shamlou - Ebrahim Dar Atash/12 Track 12.mp3
+63:احمد شاملو/Ahmad Shamlou - Ebrahim Dar Atash/Ahmad Shamlou - Ebrahim Dar Atash/13 Track 13.mp3
+64:احمد شاملو/Ahmad Shamlou - Ebrahim Dar Atash/Ahmad Shamlou - Ebrahim Dar Atash/14 Track 14.mp3
+65:احمد شاملو/Ahmad Shamlou - Ebrahim Dar Atash/Ahmad Shamlou - Ebrahim Dar Atash/15 Track 15.mp3
+66:احمد شاملو/Ahmad Shamlou - Ebrahim Dar Atash/Ahmad Shamlou - Ebrahim Dar Atash/16 Track 16.mp3
+67:احمد شاملو/Ahmad Shamlou - Ebrahim Dar Atash/Ahmad Shamlou - Ebrahim Dar Atash/17 Track 17.mp3
+68:احمد شاملو/Ahmad Shamlou - Ebrahim Dar Atash/Ahmad Shamlou - Ebrahim Dar Atash/18 Track 18.mp3
+69:احمد شاملو/Ahmad Shamlou - Ebrahim Dar Atash/Ahmad Shamlou - Ebrahim Dar Atash/19 Track 19.mp3
+70:احمد شاملو/Ahmad Shamlou - Ebrahim Dar Atash/Ahmad Shamlou - Ebrahim Dar Atash/20 Track 20.mp3
+71:احمد شاملو/Ahmad Shamlou - Ebrahim Dar Atash/Ahmad Shamlou - Ebrahim Dar Atash/21 Track 21.mp3
+72:احمد شاملو/Ahmad Shamlou - Ebrahim Dar Atash/Ahmad Shamlou - Ebrahim Dar Atash/22 Track 22.mp3
+73:احمد شاملو/Ahmad Shamlou - Ebrahim Dar Atash/Ahmad Shamlou - Ebrahim Dar Atash/23 Track 23.mp3
+74:احمد شاملو/Ahmad Shamlou - Ebrahim Dar Atash/Ahmad Shamlou - Ebrahim Dar Atash/24 Track 24.mp3
+75:احمد شاملو/Ahmad Shamlou - Ebrahim Dar Atash/Ahmad Shamlou - Ebrahim Dar Atash/25 Track 25.mp3
+76:احمد شاملو/Ahmad Shamlou - Ebrahim Dar Atash/Ahmad Shamlou - Ebrahim Dar Atash/26 Track 26.mp3
+77:احمد شاملو/Ahmad Shamlou - Ebrahim Dar Atash/Ahmad Shamlou - Ebrahim Dar Atash/27 Track 27.mp3
+78:احمد شاملو/Ahmad Shamlou - Ebrahim Dar Atash/Ahmad Shamlou - Ebrahim Dar Atash/28 Track 28.mp3
+79:احمد شاملو/Ahmad Shamlou - Ebrahim Dar Atash/Ahmad Shamlou - Ebrahim Dar Atash/29 Track 29.mp3
+80:احمد شاملو/Ahmad Shamlou - Ebrahim Dar Atash/Ahmad Shamlou - Ebrahim Dar Atash/30 Track 30.mp3
+81:احمد شاملو/Ahmad Shamlou - Ebrahim Dar Atash/Ahmad Shamlou - Ebrahim Dar Atash/31 Track 31.mp3
+82:احمد شاملو/Ahmad Shamlou - Fedrico Garsia Lorka/Ahmad Shamlou - Fedrico Garsia Lorka/02 track_2.mp3
+83:احمد شاملو/Ahmad Shamlou - Fedrico Garsia Lorka/Ahmad Shamlou - Fedrico Garsia Lorka/03 track.mp3
+84:احمد شاملو/Ahmad Shamlou - Ghazaliat Hafez/Ahmad Shamlou - Ghazaliat Hafez/01 Salha Del....mp3
+85:احمد شاملو/Ahmad Shamlou - Ghazaliat Hafez/Ahmad Shamlou - Ghazaliat Hafez/02  Anan Ke Khak Ra....mp3
+86:احمد شاملو/Ahmad Shamlou - Ghazaliat Hafez/Ahmad Shamlou - Ghazaliat Hafez/03 Ey Saba....mp3
+87:احمد شاملو/Ahmad Shamlou - Ghazaliat Hafez/Ahmad Shamlou - Ghazaliat Hafez/04 Hosnat Be....mp3
+88:احمد شاملو/Ahmad Shamlou - Ghazaliat Hafez/Ahmad Shamlou - Ghazaliat Hafez/05 Godakht Jan Ke....mp3
+89:احمد شاملو/Ahmad Shamlou - Ghazaliat Hafez/Ahmad Shamlou - Ghazaliat Hafez/06 Hejabe Chehrehye Jan....mp3
+90:احمد شاملو/Ahmad Shamlou - Ghazaliat Hafez/Ahmad Shamlou - Ghazaliat Hafez/07 Zan Yar Delnavazam....mp3
+91:احمد شاملو/Ahmad Shamlou - Ghazaliat Hafez/Ahmad Shamlou - Ghazaliat Hafez/08 Yari Andar Kas....mp3
+92:احمد شاملو/Ahmad Shamlou - Ghazaliat Hafez/Ahmad Shamlou - Ghazaliat Hafez/09 Doosh Vaght Sahar....mp3
+93:احمد شاملو/Ahmad Shamlou - Ghazaliat Hafez/Ahmad Shamlou - Ghazaliat Hafez/10 Saman Bouyan....mp3
+94:احمد شاملو/Ahmad Shamlou - Ghazaliat Hafez/Ahmad Shamlou - Ghazaliat Hafez/11 Agar Na Badeh....mp3
+95:احمد شاملو/Ahmad Shamlou - Ghazaliat Hafez/Ahmad Shamlou - Ghazaliat Hafez/12 Karam Ze Dore Charkh....mp3
+96:احمد شاملو/Ahmad Shamlou - Ghazaliat Hafez/Ahmad Shamlou - Ghazaliat Hafez/13 Dideh Darya Konam....mp3
+97:احمد شاملو/Ahmad Shamlou - Ghazaliat Hafez/Ahmad Shamlou - Ghazaliat Hafez/14 Rooze Hejran...mp3
+98:احمد شاملو/Ahmad Shamlou - Ghazaliat Hafez/Ahmad Shamlou - Ghazaliat Hafez/15 Tabe Banafshe Midahad....mp3
+99:احمد شاملو/Ahmad Shamlou - Ghazaliat Hafez/Ahmad Shamlou - Ghazaliat Hafez/17 Nasim Sogh Saadat....mp3
+100:احمد شاملو/Ahmad Shamlou - Ghazaliat Hafez/Ahmad Shamlou - Ghazaliat Hafez/18 Hava Khahe Toam....mp3
+101:احمد شاملو/Ahmad Shamlou - Ghazaliat Hafez/Ahmad Shamlou - Ghazaliat Hafez/19 Ba Modaei Nagooid...mp3
+102:احمد شاملو/Ahmad Shamlou - Ghazaliat Hafez/Ahmad Shamlou - Ghazaliat Hafez/20 Dar Kharabat Moghan....mp3
+103:احمد شاملو/Ahmad Shamlou - Ghazaliat Hafez/Ahmad Shamlou - Ghazaliat Hafez/21 Rahi Bezan....mp3
+104:احمد شاملو/Ahmad Shamlou - Ghoghnoos Dar Baran/Ahmad Shamlou - Ghoghnoos Dar Baran/01 Track 01.mp3
+105:احمد شاملو/Ahmad Shamlou - Ghoghnoos Dar Baran/Ahmad Shamlou - Ghoghnoos Dar Baran/02 Track 02.mp3
+106:احمد شاملو/Ahmad Shamlou - Ghoghnoos Dar Baran/Ahmad Shamlou - Ghoghnoos Dar Baran/03 Track 03.mp3
+107:احمد شاملو/Ahmad Shamlou - Ghoghnoos Dar Baran/Ahmad Shamlou - Ghoghnoos Dar Baran/04 Track 04.mp3
+108:احمد شاملو/Ahmad Shamlou - Ghoghnoos Dar Baran/Ahmad Shamlou - Ghoghnoos Dar Baran/05 Track 05.mp3
+109:احمد شاملو/Ahmad Shamlou - Ghoghnoos Dar Baran/Ahmad Shamlou - Ghoghnoos Dar Baran/06 Track 06.mp3
+110:احمد شاملو/Ahmad Shamlou - Ghoghnoos Dar Baran/Ahmad Shamlou - Ghoghnoos Dar Baran/07 Track 07.mp3
+111:احمد شاملو/Ahmad Shamlou - Ghoghnoos Dar Baran/Ahmad Shamlou - Ghoghnoos Dar Baran/08 Track 08.mp3
+112:احمد شاملو/Ahmad Shamlou - Ghoghnoos Dar Baran/Ahmad Shamlou - Ghoghnoos Dar Baran/09 Track 09.mp3
+113:احمد شاملو/Ahmad Shamlou - Ghoghnoos Dar Baran/Ahmad Shamlou - Ghoghnoos Dar Baran/10 Track 10.mp3
+114:احمد شاملو/Ahmad Shamlou - Ghoghnoos Dar Baran/Ahmad Shamlou - Ghoghnoos Dar Baran/11 Track 11.mp3
+115:احمد شاملو/Ahmad Shamlou - Ghoghnoos Dar Baran/Ahmad Shamlou - Ghoghnoos Dar Baran/12 Track 12.mp3
+116:احمد شاملو/Ahmad Shamlou - Ghoghnoos Dar Baran/Ahmad Shamlou - Ghoghnoos Dar Baran/13 Track 13.mp3
+117:احمد شاملو/Ahmad Shamlou - Ghoghnoos Dar Baran/Ahmad Shamlou - Ghoghnoos Dar Baran/14 Track 14.mp3
+118:احمد شاملو/Ahmad Shamlou - Ghoghnoos Dar Baran/Ahmad Shamlou - Ghoghnoos Dar Baran/15 Track 15.mp3
+119:احمد شاملو/Ahmad Shamlou - Ghoghnoos Dar Baran/Ahmad Shamlou - Ghoghnoos Dar Baran/16 Track 16.mp3
+120:احمد شاملو/Ahmad Shamlou - Ghoghnoos Dar Baran/Ahmad Shamlou - Ghoghnoos Dar Baran/17 Track 17.mp3
+121:احمد شاملو/Ahmad Shamlou - Ghoghnoos Dar Baran/Ahmad Shamlou - Ghoghnoos Dar Baran/18 Track 18.mp3
+122:احمد شاملو/Ahmad Shamlou - Ghoghnoos Dar Baran/Ahmad Shamlou - Ghoghnoos Dar Baran/19 Track 19.mp3
+123:احمد شاملو/Ahmad Shamlou - Ghoghnoos Dar Baran/Ahmad Shamlou - Ghoghnoos Dar Baran/20 Track 20.mp3
+124:احمد شاملو/Ahmad Shamlou - Ghoghnoos Dar Baran/Ahmad Shamlou - Ghoghnoos Dar Baran/21 Track 21.mp3
+125:احمد شاملو/Ahmad Shamlou - Hafez/Ahmad Shamlou - Hafez/01 track.MP3
+126:احمد شاملو/Ahmad Shamlou - Hafez/Ahmad Shamlou - Hafez/02 track.MP3
+127:احمد شاملو/Ahmad Shamlou - Kashefaneh Forotaneh Shokaran/Ahmad Shamlou - Kashefaneh Forotaneh Shokaran/01track.MP3
+128:احمد شاملو/Ahmad Shamlou - Kashefaneh Forotaneh Shokaran/Ahmad Shamlou - Kashefaneh Forotaneh Shokaran/02 track_2.MP3
+129:احمد شاملو/Ahmad Shamlou - Khoros Zari Pirahan Pari/Ahmad Shamlou - Khoros Zari Pirahan Pari/01 track_2.MP3
+130:احمد شاملو/Ahmad Shamlou - Khoros Zari Pirahan Pari/Ahmad Shamlou - Khoros Zari Pirahan Pari/02 track_2.MP3
+131:احمد شاملو/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh - 01 Madayehe Bi Seleh.mp3
+132:احمد شاملو/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh - 02 Madayehe Bi Seleh.mp3
+133:احمد شاملو/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh - 03 Madayehe Bi Seleh.mp3
+134:احمد شاملو/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh - 04 Madayehe Bi Seleh.mp3
+135:احمد شاملو/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh - 05 Madayehe Bi Seleh.mp3
+136:احمد شاملو/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh - 06 Madayehe Bi Seleh.mp3
+137:احمد شاملو/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh - 07 Madayehe Bi Seleh.mp3
+138:احمد شاملو/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh - 08 Madayehe Bi Seleh.mp3
+139:احمد شاملو/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh - 09 Madayehe Bi Seleh.mp3
+140:احمد شاملو/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh - 10 Madayehe Bi Seleh.mp3
+141:احمد شاملو/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh - 11 Madayehe Bi Seleh.mp3
+142:احمد شاملو/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh - 12 Madayehe Bi Seleh.mp3
+143:احمد شاملو/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh - 13 Shekoftan Dar Meh.mp3
+144:احمد شاملو/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh - 14 Shekoftan Dar Meh.mp3
+145:احمد شاملو/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh - 15 Hadis Bighararye Mahan.mp3
+146:احمد شاملو/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh [1382]/Ahmad Shamlou - Madayehe Bi Seleh - 16 Hadis Bighararye Mahan.mp3
+147:احمد شاملو/Ahmad Shamlou - Marsiyehaye Khaak/Ahmad Shamlou - Marsiyehaye Khaak/01 Hamlet.mp3
+148:احمد شاملو/Ahmad Shamlou - Marsiyehaye Khaak/Ahmad Shamlou - Marsiyehaye Khaak/02 Na In Barf Ra Digar.mp3
+149:احمد شاملو/Ahmad Shamlou - Marsiyehaye Khaak/Ahmad Shamlou - Marsiyehaye Khaak/03 Kojaei, Beshno Beshno.mp3
+150:احمد شاملو/Ahmad Shamlou - Marsiyehaye Khaak/Ahmad Shamlou - Marsiyehaye Khaak/04 Manam Ari Manam.mp3
+151:احمد شاملو/Ahmad Shamlou - Marsiyehaye Khaak/Ahmad Shamlou - Marsiyehaye Khaak/05 Ba Khashmo Jadal Zistam....mp3
+152:احمد شاملو/Ahmad Shamlou - Marsiyehaye Khaak/Ahmad Shamlou - Marsiyehaye Khaak/06 Man Dard Boode-am Hame.mp3
+153:احمد شاملو/Ahmad Shamlou - Marsiyehaye Khaak/Ahmad Shamlou - Marsiyehaye Khaak/07 Nafase Khashmagine.mp3
+154:احمد شاملو/Ahmad Shamlou - Marsiyehaye Khaak/Ahmad Shamlou - Marsiyehaye Khaak/08 Tamsil.mp3
+155:احمد شاملو/Ahmad Shamlou - Molavi/Ahmad Shamlou - Molavi/01 track.mp3
+156:احمد شاملو/Ahmad Shamlou - Molavi/Ahmad Shamlou - Molavi/02 track.mp3
+157:احمد شاملو/Ahmad Shamlou - Molavi/Ahmad Shamlou - Molavi/03 track.mp3
+158:احمد شاملو/Ahmad Shamlou - Molavi/Ahmad Shamlou - Molavi/04 track.mp3
+159:احمد شاملو/Ahmad Shamlou - Molavi/Ahmad Shamlou - Molavi/05 track.mp3
+160:احمد شاملو/Ahmad Shamlou - Molavi/Ahmad Shamlou - Molavi/06 track.mp3
+161:احمد شاملو/Ahmad Shamlou - Molavi/Ahmad Shamlou - Molavi/07 track.mp3
+162:احمد شاملو/Ahmad Shamlou - Molavi/Ahmad Shamlou - Molavi/08 track.mp3
+163:احمد شاملو/Ahmad Shamlou - Molavi/Ahmad Shamlou - Molavi/09 track.mp3
+164:احمد شاملو/Ahmad Shamlou - Molavi/Ahmad Shamlou - Molavi/10 track.mp3
+165:احمد شاملو/Ahmad Shamlou - Molavi/Ahmad Shamlou - Molavi/11 track.mp3
+166:احمد شاملو/Ahmad Shamlou - Molavi/Ahmad Shamlou - Molavi/12 track.mp3
+167:احمد شاملو/Ahmad Shamlou - Molavi/Ahmad Shamlou - Molavi/13 track.mp3
+168:احمد شاملو/Ahmad Shamlou - Molavi/Ahmad Shamlou - Molavi/14 track.mp3
+169:احمد شاملو/Ahmad Shamlou - Molavi/Ahmad Shamlou - Molavi/15 track.mp3
+170:احمد شاملو/Ahmad Shamlou - Molavi/Ahmad Shamlou - Molavi/16 track.mp3
+171:احمد شاملو/Ahmad Shamlou - Molavi/Ahmad Shamlou - Molavi/17 track.mp3
+172:احمد شاملو/Ahmad Shamlou - Molavi/Ahmad Shamlou - Molavi/18 track.mp3
+173:احمد شاملو/Ahmad Shamlou - Molavi/Ahmad Shamlou - Molavi/19 track.mp3
+174:احمد شاملو/Ahmad Shamlou - Molavi/Ahmad Shamlou - Molavi/20 track.mp3
+175:احمد شاملو/Ahmad Shamlou - Molavi/Ahmad Shamlou - Molavi/21 track.mp3
+176:احمد شاملو/Ahmad Shamlou - Mosafer Koocholoo/Ahmad Shamlou - Mosafer Koocholoo/01 Track 01.mp3
+177:احمد شاملو/Ahmad Shamlou - Mosafer Koocholoo/Ahmad Shamlou - Mosafer Koocholoo/02 Track 02.mp3
+178:احمد شاملو/Ahmad Shamlou - Mosafer Koocholoo/Ahmad Shamlou - Mosafer Koocholoo/03 Track 03.mp3
+179:احمد شاملو/Ahmad Shamlou - Mosafer Koocholoo/Ahmad Shamlou - Mosafer Koocholoo/04 Track 04.mp3
+180:احمد شاملو/Ahmad Shamlou - Mosafer Koocholoo/Ahmad Shamlou - Mosafer Koocholoo/05 Track 05.mp3
+181:احمد شاملو/Ahmad Shamlou - Mosafer Koocholoo/Ahmad Shamlou - Mosafer Koocholoo/06 Track 06.mp3
+182:احمد شاملو/Ahmad Shamlou - Mosafer Koocholoo/Ahmad Shamlou - Mosafer Koocholoo/07 Track 07.mp3
+183:احمد شاملو/Ahmad Shamlou - Mosafer Koocholoo/Ahmad Shamlou - Mosafer Koocholoo/08 Track 08.mp3
+184:احمد شاملو/Ahmad Shamlou - Mosafer Koocholoo/Ahmad Shamlou - Mosafer Koocholoo/09 Track 09.mp3
+185:احمد شاملو/Ahmad Shamlou - Parya (Gheseie Dokhtaraie Naneh Darya)/Ahmad Shamlou - Parya (Gheseie Dokhtaraie Naneh Darya)/01 Pariya.mp3
+186:احمد شاملو/Ahmad Shamlou - Parya (Gheseie Dokhtaraie Naneh Darya)/Ahmad Shamlou - Parya (Gheseie Dokhtaraie Naneh Darya)/02 Dokhtaraye Naneh Darya.mp3
+187:احمد شاملو/Ahmad Shamlou - Rubaiyate Khayyam/Ahmad Shamlou - Rubaiyate Khayyam/01 track.mp3
+188:احمد شاملو/Ahmad Shamlou - Rubaiyate Khayyam/Ahmad Shamlou - Rubaiyate Khayyam/02 track.mp3
+189:احمد شاملو/Ahmad Shamlou - Rubaiyate Khayyam/Ahmad Shamlou - Rubaiyate Khayyam/03 track.mp3
+190:احمد شاملو/Ahmad Shamlou - Rubaiyate Khayyam/Ahmad Shamlou - Rubaiyate Khayyam/04 track.mp3
+191:احمد شاملو/Ahmad Shamlou - Rubaiyate Khayyam/Ahmad Shamlou - Rubaiyate Khayyam/05 track.mp3
+192:احمد شاملو/Ahmad Shamlou - Rubaiyate Khayyam/Ahmad Shamlou - Rubaiyate Khayyam/06 track.mp3
+193:احمد شاملو/Ahmad Shamlou - Rubaiyate Khayyam/Ahmad Shamlou - Rubaiyate Khayyam/07 track.mp3
+194:احمد شاملو/Ahmad Shamlou - Rubaiyate Khayyam/Ahmad Shamlou - Rubaiyate Khayyam/08 track.mp3
+195:احمد شاملو/Ahmad Shamlou - Rubaiyate Khayyam/Ahmad Shamlou - Rubaiyate Khayyam/09 track.mp3
+196:احمد شاملو/Ahmad Shamlou - Rubaiyate Khayyam/Ahmad Shamlou - Rubaiyate Khayyam/10 track.mp3
+197:احمد شاملو/Ahmad Shamlou - Rubaiyate Khayyam/Ahmad Shamlou - Rubaiyate Khayyam/11 track.mp3
+198:احمد شاملو/Ahmad Shamlou - Rubaiyate Khayyam/Ahmad Shamlou - Rubaiyate Khayyam/12 In Ghafeleye.mp3
+199:احمد شاملو/Ahmad Shamlou - Rubaiyate Khayyam/Ahmad Shamlou - Rubaiyate Khayyam/13 Yaran.mp3
+200:احمد شاملو/Ahmad Shamlou - Rubaiyate Khayyam/Ahmad Shamlou - Rubaiyate Khayyam/14 Saghi Gham Man.mp3
+201:احمد شاملو/Ahmad Shamlou - Rubaiyate Khayyam/Ahmad Shamlou - Rubaiyate Khayyam/15 Saghi Golo Sabzeh.mp3
+202:احمد شاملو/Ahmad Shamlou - Rubaiyate Khayyam/Ahmad Shamlou - Rubaiyate Khayyam/17 Ta Key Ghame An.mp3
+203:احمد شاملو/Ahmad Shamlou - Rubaiyate Khayyam/Ahmad Shamlou - Rubaiyate Khayyam/18 Ghomi Motafakerand.mp3
+204:احمد شاملو/Ahmad Shamlou - Rubaiyate Khayyam/Ahmad Shamlou - Rubaiyate Khayyam/19 Man Zahere.mp3
+205:احمد شاملو/Ahmad Shamlou - Rubaiyate Khayyam/Ahmad Shamlou - Rubaiyate Khayyam/20 Ma Lobatakanim.mp3
+206:احمد شاملو/Ahmad Shamlou - Rubaiyate Khayyam/Ahmad Shamlou - Rubaiyate Khayyam/21 Chon Omr.mp3
+207:احمد شاملو/Ahmad Shamlou - Rubaiyate Khayyam/Ahmad Shamlou - Rubaiyate Khayyam/22 In Bahre Vojood.mp3
+208:احمد شاملو/Ahmad Shamlou - Rubaiyate Khayyam/Ahmad Shamlou - Rubaiyate Khayyam/23 Gardon Negari.mp3
+209:احمد شاملو/Ahmad Shamlou - Rubaiyate Khayyam/Ahmad Shamlou - Rubaiyate Khayyam/24 Az Man Ramaghi.mp3
+210:احمد شاملو/Ahmad Shamlou - Rubaiyate Khayyam/Ahmad Shamlou - Rubaiyate Khayyam/25 Chon Amadanam.mp3
+211:احمد شاملو/Ahmad Shamlou - Rubaiyate Khayyam/Ahmad Shamlou - Rubaiyate Khayyam/26 Dori Ke Dar O.mp3
+212:احمد شاملو/Ahmad Shamlou - Rubaiyate Khayyam/Ahmad Shamlou - Rubaiyate Khayyam/27 Ey Doost Bia.mp3
+213:احمد شاملو/Ahmad Shamlou - Rubaiyate Khayyam/Ahmad Shamlou - Rubaiyate Khayyam/28 Ta Dast Bar Etefagh.mp3
+214:احمد شاملو/Ahmad Shamlou - Rubaiyate Khayyam/Ahmad Shamlou - Rubaiyate Khayyam/29 Sobh Ast.mp3
+215:احمد شاملو/Ahmad Shamlou - Shabeh Sher Dar USA/Ahmad Shamlou - Shabeh Sher Dar USA/01 track.MP3
+216:احمد شاملو/Ahmad Shamlou - Shabeh Sher Dar USA/Ahmad Shamlou - Shabeh Sher Dar USA/02 track.MP3
+217:احمد شاملو/Ahmad Shamlou - Shabeh Sher Dar USA/Ahmad Shamlou - Shabeh Sher Dar USA/03 track.MP3
+218:احمد شاملو/Ahmad Shamlou - Shabeh Sher Dar USA/Ahmad Shamlou - Shabeh Sher Dar USA/04 track.MP3
+219:احمد شاملو/Ahmad Shamlou - Siyah Hamchon Amagheh Afrigha/Ahmad Shamlou - Siyah Hamchon Amagheh Afrigha/01 track_2.MP3
+220:احمد شاملو/Ahmad Shamlou - Siyah Hamchon Amagheh Afrigha/Ahmad Shamlou - Siyah Hamchon Amagheh Afrigha/02 track_2.MP3
+221:احمد شاملو/Ahmad Shamlou - Sokot Sarshar Az Nagoftehhast/Ahmad Shamlou - Sokot Sarshar Az Nagoftehhast/01 track.MP3
+222:احمد شاملو/Ahmad Shamlou - Sokot Sarshar Az Nagoftehhast/Ahmad Shamlou - Sokot Sarshar Az Nagoftehhast/02 track.MP3
+223:احمد شاملو/Ahmad Shamlou - Taranehayeh Mihaneh Talkh/Ahmad Shamlou - Taranehayeh Mihaneh Talkh/01 track_2.MP3
+224:احمد شاملو/Ahmad Shamlou - Taranehayeh Mihaneh Talkh/Ahmad Shamlou - Taranehayeh Mihaneh Talkh/02 track_2.MP3
+playlist_end

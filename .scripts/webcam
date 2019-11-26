@@ -1,0 +1,2 @@
+#!/bin/bash
+pkill -f /dev/video || mplayer tv:// -tv driver=v4l2:width=280:height=180 -vo xv /dev/video

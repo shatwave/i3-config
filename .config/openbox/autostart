@@ -1,0 +1,68 @@
+
+tint2 &
+#tint2 -c .config/tint2/popside/popside-red.tint2rc &
+#tint2 -c .config/tint2/carina/carina.tint2rc &
+## Set wallpaper with feh
+#feh --bg-fill ~/.wallpaper/wood.jpg
+nitrogen --restore; sleep 1; compton -b &
+
+## Some of my apps don't respect fontconfig, I'm using xsettingsd to fix it :)
+xsettingsd &
+
+## Who don't love an eye candy shadow?? Launch compton
+compton -b --config ~/.config/compton.conf &
+
+## Music is my only friend :(
+mpd &
+
+## Conky, an efficient way for system info
+#conky &
+
+## Turn off/on System Beep
+#xset b off
+
+## Thunar daemon mode
+#thunar --daemon &
+
+## Polybar, the most eye candy bar (or panel replacement) I ever tried
+#polybar -c ~/.config/polybar/polybar.sh top &
+
+## Plank, a lightweight & eye candy replacement for taskbar
+#plank &
+
+## Keep Your eyes safe from your monitor radiation
+#redshift-gtk &
+
+## Numlock, probably You need it start automatically
+#numlockx &
+
+## GNOME PolicyKit authentication
+#/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+## Volume keys daemon
+#xfce4-volumed &
+
+## Enable power management
+xfce4-power-manager &
+
+## XFCE4 Settings daemon
+#xfsettingsd &
+
+## Start xscreensaver
+#xscreensaver -no-splash &
+
+## Clipboard Manager
+#(sleep 3; clipit) &
+
+## I love my wife! Upss typo, I mean wifi
+(sleep 3; nm-applet) &
+
+## Bluetooth system tray
+#(sleep 3; blueberry-tray) &
+
+## Volume control for systray
+volumeicon &
+
+## language icon
+#(sleep 3; sbxkb) &
+

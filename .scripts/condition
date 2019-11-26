@@ -1,0 +1,5 @@
+#!/bin/bash
+notify-send 'CPU :' "$(ps axch -o cmd:15,%cpu --sort=-%cpu | head)" -t 4000
+notify-send 'MEMORY :' "$(ps axch -o cmd:15,%mem --sort=-%mem | head)" -t 4000
+notify-send 'CPU  Temperature:' "$( sensors | awk '/^temp1/ {print $2}')" -t 4000
+notify-send 'MEMORY USED :' "$(free -h | awk '/^Mem:/ {print $3 "/" $2}')" -t 4000

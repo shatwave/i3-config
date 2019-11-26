@@ -1,0 +1,324 @@
+# set modifier
+set $super Mod4
+set $alt Mod1
+
+# set font
+font pango: Noto Sans 9
+#font pango: Iosevka Regular 9
+
+# Use Mouse+$super to drag floating windows to their wanted position
+floating_modifier $super
+
+# Hide borders
+hide_edge_borders none
+
+#autostart
+#exec --no-startup-id hsetroot -full ~/.wallpaper.jpg
+#exec --no-startup-id nm-applet
+#exec --no-startup-id pamac-tray
+exec --no-startup-id xsettingsd &
+exec --no-startup-id compton -b
+#exec --no-startup-id exec tint2 -c .config/tint2/popside/popside-red.tint2rc
+exec --no-startup-id xfce4-power-manager
+#exec_always --no-startup-id sbxkb
+exec --no-startup-id nitrogen --restore; sleep 1; compton -b
+exec --no-startup-id pa-applet
+exec_always --no-startup-id fix_xcursor
+exec --no-startup-id mpd
+#exec --no-startup-id ~/.scripts/wallpaper
+#exec --no-startup-id xautolock -time 10 -locker " i3lock -i ~/.lock.png"
+
+# start a terminal
+bindsym $super+Return exec i3-sensible-terminal
+bindsym $super+t exec termite
+bindsym $super+Shift+Return exec urxvt-tabbed
+#bindsym $super+t exec gnome-terminal
+
+# start dmenu (a program launcher)
+bindsym $super+Shift+d exec i3-dmenu-desktop --dmenu="dmenu -i -fn 'Noto Sans:size=9'"
+bindsym $super+d exec rofi -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font 'Noto Sans 8'
+
+
+# common apps keybinds
+#bindsym $super+Shift+m exec --no-startup-id mplayer tv:// -tv driver=v4l2:width=280:height=180 -vo xv;focus
+#bindsym $super+Shift+w exec firefox;workspace $2;focus
+#bindsym $super+Shift+a exec audacious;focus
+#bindsym XF86Tools	exec --no-startup-id urxvt -e ncmpcpp
+bindsym $super+l exec "i3lock-fancy -f Source-Sans-Pro"
+bindsym Print exec scrot 'Cheese_%a-%d%b%y_%H.%M.png' -e 'viewnior ~/$f'
+bindsym $super+Print exec  flameshot gui -d 1000
+bindsym XF86HomePage exec firefox;workspace $2;focus
+bindsym $super+Shift+f exec thunar;workspace $3;focus
+bindsym $super+Shift+g exec geany
+bindsym XF86Tools exec audacious;focus
+bindsym $super+Shift+k exec --no-startup-id "killall screenkey || screenkey";focus
+bindsym $super+Shift+t exec telegram-desktop;focus
+bindsym $super+Shift+m exec --no-startup-id ~/.scripts/webcam;focus
+bindsym XF86RFKill exec notify-send "Airplane Mode "
+#bindsym $super+Shift+e exec ~/.scripts/condition
+#bindsym $super+Shift+w exec ~/.scripts/wallpaper
+bindsym $super+Shift+c exec gnome-calculator
+bindsym $super+Shift+v exec --no-startup-id termite -e "vim"
+bindsym $super+g exec --no-startup-id "killall gromit-mpx || gromit-mpx"
+bindsym $alt+r exec gmrun
+#bindsym $super+Shift+c exec --no-startup-id "killall clipit || clipit";focus
+#bindsym $super+Shift+0 exec oblogout
+bindsym $super+k exec ~/.scripts/keyboard 
+
+
+#change volume
+bindsym XF86AudioRaiseVolume exec amixer -q set Master 5%+
+bindsym XF86AudioLowerVolume exec amixer -q set Master 5%-
+bindsym XF86AudioMute exec amixer set Master toggle
+
+#change volume
+bindsym $super+F3 exec amixer -q set Master 5%+
+bindsym $super+F2 exec amixer -q set Master 5%-
+
+
+bindsym Shift+XF86AudioPlay               exec --no-startup-id "mpc toggle"
+bindsym Shift+XF86AudioNext               exec --no-startup-id "mpc next"
+bindsym Shift+XF86AudioPrev               exec --no-startup-id "mpc prev"
+
+bindsym XF86AudioPlay exec playerctl play-pause
+bindsym XF86AudioPause exec playerctl pause-pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
+
+# Screen brightness controls
+# bindsym XF86MonBrightnessUp exec "xbacklight -inc 10; notify-send 'brightness up'"
+# bindsym XF86MonBrightnessDown exec "xbacklight -dec 10; notify-send 'brightness down'"
+
+# kill focused window
+#bindsym $alt+F4 kill
+bindsym $super+c kill
+bindsym Cancel kill
+
+#STOP/HIDE EVERYTHING:
+bindsym $super+Shift+Delete exec --no-startup-id mpc pause ; exec --no-startup-id pauseallmpv; workspace 6;
+
+
+# change focus
+bindsym $super+Left focus left
+bindsym $super+Down focus down
+bindsym $super+Up focus up
+bindsym $super+Right focus right
+
+# focus the parent container
+bindsym $super+a focus parent
+
+# reload the configuration file
+bindsym $super+$alt+c reload
+
+# focus the child container
+#bindsym $super+m focus child
+
+# move focused window
+bindsym $super+Shift+Left move left
+bindsym $super+Shift+Down move down
+bindsym $super+Shift+Up move up
+bindsym $super+Shift+Right move right
+
+# Workspace Bindings
+bindsym $super+Home	workspace $1
+bindsym $super+End	workspace $9
+bindsym $super+Tab	workspace back_and_forth
+
+# Set workspace name
+bindsym $super+n exec i3-input -F 'rename workspace to %s' -P 'New name For Workspace: '
+
+# split in horizontal orientation
+bindsym $super+h split h
+
+# hide/unhide i3status bar
+bindsym $super+Shift+h bar mode toggle
+
+# split in vertical orientation
+bindsym $super+v split v
+
+# enter fullscreen mode for the focused container
+bindsym $super+f fullscreen toggle ; exec --no-startup-id notify-send "Full/Smart Screen mode activated." "Press Super+f to return."
+
+# change container layout split
+bindsym $super+s layout toggle split
+
+# toggle tiling / floating
+bindsym $super+space floating toggle
+
+# change focus between tiling / floating windows
+bindsym $super+Shift+space focus mode_toggle
+
+# define names for workspaces
+#set $1    "1:   Terminal "
+#set $2    "2:   Firefox "
+#set $2    "2:   Network "
+#set $3    "3:   Files "
+#set $4    "4:   Code "
+#set $5    "5:   Documents "
+#set $6    "6:   Chat "
+#set $7    "7:   Media "
+#set $8    "8:   Design "
+#set $9    "9:   Settings "
+
+set $1 1
+set $2 2
+set $3 3
+set $4 4
+set $5 5
+set $6 6
+set $7 7
+set $8 8
+set $9 9
+
+#set $1 "1:I"
+#set $2 "2:II"
+#set $3 "3:III"
+#set $4 "4:IV"
+#set $5 "5:V"
+#set $6 "6:VI"
+#set $7 "7:VII"
+#set $8 "8:VIII"
+#set $9 "9:IX"
+
+
+# switch to workspace
+bindsym $alt+Control+Right workspace next
+bindsym $alt+Control+Left workspace prev
+bindsym $super+1 workspace $1
+bindsym $super+2 workspace $2
+bindsym $super+3 workspace $3
+bindsym $super+4 workspace $4
+bindsym $super+5 workspace $5
+bindsym $super+6 workspace $6
+bindsym $super+7 workspace $7
+bindsym $super+8 workspace $8
+bindsym $super+9 workspace $9
+
+# move focused container to workspace
+bindsym $super+Shift+1 move container to workspace $1
+bindsym $super+Shift+2 move container to workspace $2
+bindsym $super+Shift+3 move container to workspace $3
+bindsym $super+Shift+4 move container to workspace $4
+bindsym $super+Shift+5 move container to workspace $5
+bindsym $super+Shift+6 move container to workspace $6
+bindsym $super+Shift+7 move container to workspace $7
+bindsym $super+Shift+8 move container to workspace $8
+bindsym $super+Shift+9 move container to workspace $9
+
+# change container layout (stacked, tabbed, toggle split)
+bindsym $super+w mode "$windows_mode"
+set $windows_mode (s)tacking, (t)abbed
+mode "$windows_mode" {
+	bindsym s layout stacking
+	bindsym t layout tabbed 
+	
+	# exit Windows Mode: "Enter" or "Escape"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $super+Shift+r restart
+
+# exit i3
+#bindsym $super+q exec "i3-nagbar -t warning -m 'Really, exit?' -b 'Yes' 'i3-msg exit'"
+
+#i3-status
+bar {
+	colors {
+        background #2f343f
+        statusline #d8dee8
+        #statusline #2f343f
+        separator #4b5262
+
+		# colour of border, background, and text
+        focused_workspace	#BF616A	#BF616A	#d8dee8
+        active_workspace	#2f343f	#2f343f	#d8dee8
+        inactive_workspace	#2f343f	#2f343f	#d8dee8
+        urgent_workspace	#2f343f	#ebcb8b	#2f343f
+    }
+        status_command i3status
+        strip_workspace_numbers yes
+        position bottom
+        #position top
+        height 25
+		#mode hide
+
+}
+
+# In case You prefer Lemonbar
+#    bar {
+#        i3bar_command ~/.config/i3/lemonbar/i3_lemonbar.sh
+#		}
+
+# Start Polybar
+#exec_always --no-startup-id ~/.config/polybar/launch.sh
+
+# resize window (you can also use the mouse for that)
+bindsym $super+r mode "resize"
+mode "resize" {
+        bindsym Left resize shrink width 5 px or 5 ppt
+        bindsym Down resize grow height 5 px or 5 ppt
+        bindsym Up resize shrink height 5 px or 5 ppt
+        bindsym Right resize grow width 5 px or 5 ppt
+        bindsym Return mode "default"
+}
+# window rules, you can find the window class using xprop
+for_window [class=".*"] border pixel 2
+assign [class=URxvt] $1
+assign [class=Opera|firefox|Uget|Transmission-gtk] $2
+assign [class=Thunar|File-roller] $3
+assign [class=Geany] $4
+assign [class=Mousepad|soffice|libreoffice*|Evince] $5
+assign [class=Telegram|Thunderbird] $6
+assign [class=Audacity|Vlc|Audacious|mpv|Xfburn] $7
+assign [class=Gimp*|Inkscape] $8
+assign [class=Lxappearance|System-config-printer.py|Lxtask|GParted|qt*|Kvantum*|Pavucontrol|Exo-helper*|Lxrandr|Arand|Nitrogen|Gnome-disks] $9
+for_window [class=Viewnior|feh|Telegram|Ramme|MPlayer|File-roller|Lxappearance|Lxtask|Pavucontrol|XTerm|calculator] floating enable
+for_window [class=URxvt|Firefox|Geany|Evince|Soffice|libreoffice*|mpv|Ghb|Xfburn|Gimp*|Inkscape|Vlc|Lxappearance|Audacity] focus
+for_window [class=Xfburn|GParted|System-config-printer.py|Lxtask|Pavucontrol|Exo-helper*|Lxrandr|Arandr] focus
+for_window [class=Nautilus] floating enable,resize set 1100 640
+for_window [class=XTerm] move position 600 200
+#for_window [class="Oblogout"] fullscreen enable
+#for_window [class=MPlayer] move position 600 200
+for_window [title="MPlayer"] floating enable
+for_window [title="MPlayer"] sticky enable
+for_window [title="MPlayer"] border pixel 0
+for_window [class=MPlayer] move position 1042 500
+
+# colour of border, background, text, indicator, and child_border
+#client.focused			#bf616a #2f343f #d8dee8 #d8dee8 #bf616a 
+client.focused			#bf616a #2f343f #d8dee8 #bf616a #bf616a
+client.focused_inactive	#2f343f #2f343f #d8dee8 #2f343f #2f343f
+client.unfocused		#2f343f #2f343f #d8dee8 #2f343f #2f343f
+client.urgent			#2f343f #2f343f #d8dee8 #2f343f #2f343f
+client.placeholder		#2f343f #2f343f #d8dee8 #2f343f #2f343f
+client.background		#2f343f
+
+
+#i3-gaps
+#smart_gaps on
+#smart_borders on
+gaps inner 8
+gaps outer 5
+bindsym $super+y gaps inner current minus 6
+bindsym $super+u gaps inner current plus 6
+bindsym $super+Shift+y gaps outer current minus 6
+bindsym $super+Shift+u gaps outer current plus 6
+
+# Set shut down, restart and locking features
+bindsym $super+0 mode "$mode_system"
+set $mode_system (l)ock, (e)xit, switch_(u)ser, ⛔(s)uspend, ❄(h)ibernate, (r)eboot, (Shift+s)hutdown
+mode "$mode_system" {
+    bindsym l exec --no-startup-id i3exit lock, mode "default"
+    bindsym s exec --no-startup-id i3exit suspend, mode "default"
+    bindsym u exec --no-startup-id i3exit switch_user, mode "default"
+    bindsym e exec --no-startup-id i3exit logout, mode "default"
+    bindsym h exec --no-startup-id i3exit hibernate, mode "default"
+    bindsym r exec --no-startup-id i3exit reboot, mode "default"
+    bindsym Shift+s exec --no-startup-id mpc pause; exec  --no-startup-id i3exit shutdown, mode "default"
+
+    # exit system mode: "Enter" or "Escape"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}

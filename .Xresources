@@ -1,0 +1,164 @@
+! ------------------------------------------------------------------------------
+! Fonts
+! ------------------------------------------------------------------------------
+
+! special
+*.foreground:   #d8dee8
+*.background:   #2f343f
+*.cursorColor:  #d3d0c8
+
+! black
+*.color0:       #2d2d2d
+*.color8:       #747369
+
+! red
+*.color1:       #f2777a
+*.color9:       #f2777a
+
+! green
+*.color2:       #99cc99
+*.color10:      #99cc99
+
+! yellow
+*.color3:       #ffcc66
+*.color11:      #ffcc66
+
+! blue
+*.color4:       #6699cc
+*.color12:      #6699cc
+
+! magenta
+*.color5:       #cc99cc
+*.color13:      #cc99cc
+
+! cyan
+*.color6:       #66cccc
+*.color14:      #66cccc
+
+! white
+*.color7:       #d3d0c8
+*.color15:      #f2f0ec
+
+
+! ------------------------------------------------------------------------------
+! URxvt configs
+! ------------------------------------------------------------------------------
+
+
+! font spacing
+URxvt*letterSpace:    0
+URxvt.lineSpace:    1
+
+! general settings
+URxvt*saveline:      15000
+URxvt*termName:      rxvt-256color
+URxvt*iso14755:      false
+URxvt*urgentOnBell:    true
+
+
+! appearance
+URxvt*background:     [100]#2e3440
+URxvt*depth:      32
+URxvt*scrollBar:    false
+URxvt*scrollBar_right:  false
+URxvt*internalBorder:  24
+URxvt*externalBorder:  0
+URxvt.geometry:      110x24
+URxvt.matcher.button:     1
+URxvt*scrollTtyOutput:    false
+URxvt*scrollWithBuffer:   true
+URxvt*scrollTtyKeypress:  true
+URxvt*cursorBlink:        false
+URxvt.cursorUnderline:    true
+URxvt.iso14755_52:        false
+URxvt.intensityStyles:    false
+
+! perl extensions
+URxvt.perl-ext-common:  default,clipboard,url-select,keyboard-select,resize-font,ibeamcursor,leavecursor,matcher
+
+
+URxvt*iconFile:  		/usr/share/icons/Sardi-Mono/scalable/apps/terminal.svg
+! macros for clipboard and selection
+URxvt.copyCommand:    xclip -i -selection clipboard
+URxvt.pasteCommand:    xclip -o -selection clipboard
+URxvt.keysym.A-c:    perl:clipboard:copy
+URxvt.keysym.A-v:    perl:clipboard:paste
+URxvt.keysym.A-S-v:    perl:clipboard:paste_escaped
+URxvt.keysym.A-Escape:  perl:keyboard-select:activate
+URxvt.keysym.A-s:    perl:keyboard-select:search
+URxvt.keysym.A-u:    perl:url-select:select_next
+URxvt.urlLauncher:    firefox
+URxvt.underlineURLs:  true
+URxvt.urlButton:    1     
+URxvt.resize-font.smaller:  A-j
+URxvt.resize-font.bigger:   A-k
+
+
+! scroll one line
+URxvt.keysym.Shift-Up:    command:\033]720;1\007
+URxvt.keysym.Shift-Down:  command:\033]721;1\007
+
+! control arrow
+URxvt.keysym.Control-Up:  \033[1;5A
+URxvt.keysym.Control-Down:  \033[1;5B
+URxvt.keysym.Control-Right:  \033[1;5C
+URxvt.keysym.Control-Left:  \033[1;5D
+
+! URxvt.font:                     xft:Dejavu Sans Mono:autohint=true:regular:size=12
+! URxvt.boldFont:                 xft:DejaVu Sans Mono:autohint=true:bold:size=12
+! URxvt.italicFont:               xft:DejaVu Sans Mono:autohint=true:italic:size=12
+! URxvt.boldItalicFont:           xft:DejaVu Sans Mono:autohint=true:bold:italic:size=12
+ 
+
+! ------------------------------------------------------------------------------
+! Font configuration
+! ------------------------------------------------------------------------------
+
+*.font: xft:Iosevka:style=Regular:size=12
+*.boldFont: xft:Iosevka:style=Bold:size=12
+*.italicFont: xft:Iosevka:style=Italic:size=12
+*.boldItalicFont: xft:Iosevka:style=Bold Italic:size=12
+
+
+
+! ------------------------------------------------------------------------------
+! Xft Font Configuration
+! -----------------------------------------
+
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintslight
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+! ------------------------------------------------------------------------------
+! Rofi configs
+! ------------------------------------------------------------------------------
+rofi.disable-history: true
+rofi.hide-scrollbar: true
+rofi.color-enabled: true
+rofi.color-window: #2e3440, #2e3440, #2e3440
+rofi.color-normal: #2e3440, #d8dee9, #2e3440, #2e3440, #bf616a
+rofi.color-active: #2e3440, #b48ead, #2e3440, #2e3440, #93e5cc
+rofi.color-urgent: #2e3440, #ebcb8b, #2e3440, #2e3440, #ebcb8b
+rofi.modi: run,drun,window
+rofi.show-icons: false
+rofi.lines: 7
+rofi.line-padding: 3
+!rofi.matching: fuzzy
+rofi.bw: 0
+rofi.padding: 0
+rofi.separator-style: none
+rofi.line-margin: 0
+
+! ------------------------------------------------------------------------------
+! Dmenu configs
+! ------------------------------------------------------------------------------
+
+dmenu.selforeground:	    #d8dee9
+dmenu.background:	        #2f343f
+dmenu.selbackground:	    #bf616a
+dmenu.foreground:	        #d8dee9
+
+

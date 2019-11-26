@@ -1,0 +1,71 @@
+general {
+        output_format = "i3bar"
+        colors = false
+        markup = pango
+        interval = 5
+        color_good = '#2f343f'
+		color_degraded = '#ebcb8b'
+		color_bad = '#ba5e57'
+}
+order += "load"
+#order += "cpu_temperature 0"
+#order += "disk /"
+order += "disk /home"
+#order += "ethernet enp2s0"
+order += "wireless wlp1s0"
+order += "volume master"
+#order += "battery 1"
+order += "tztime local"
+
+load {
+        format = "  %5min Load "
+}
+
+cpu_temperature 0 {
+        format = " %degrees °C "
+        path = "/sys/class/thermal/thermal_zone0/temp"
+}
+
+disk "/" {
+        format = "  %free Free "
+}
+
+disk "/home" {
+        format = "  %free Free "
+}
+
+ethernet enp1s0 {
+        format_up = "  %ip "
+        format_down = "  Disconnected "
+}
+
+wireless wlp1s0 {
+        format_up = "  %essid "
+        format_down = "  Disconnected "
+}
+
+volume master {
+        format = "  %volume "
+        format_muted = "Muted "
+        device = "default"
+        mixer = "Master"
+        mixer_idx = 0
+}
+battery 1 {
+ format = "  %status  %percentage "
+        format_down = "No Battery"
+        status_chr = "Charging"
+        status_bat = "Battery"
+        status_unk = "Unknown"
+        status_full = "Charged"
+        path = "/sys/class/power_supply/BATT/uevent"
+        low_threshold = "30"
+		threshold_type = "time"
+		last_full_capacity = true
+		integer_battery_capacity = true
+}
+tztime local {
+		format = " %time "
+		format_time = " %a %-d %b  %H:%M"
+}
+

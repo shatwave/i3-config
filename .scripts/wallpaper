@@ -1,0 +1,16 @@
+#!/bin/bash
+wallpaperpick () {
+	WALLPAPER=$(shuf -n1 -e ~/.wallpaper/*)
+	SHORTWALLPAPER=$(echo $WALLPAPER | sed "s/.*\///" | sed "s/\..*//")
+	ls ~/.wallpaper | sort -R | tail -$N | while read file; do
+		# Useless animation because aesthetic is really important
+		hsetroot -fill ~/.wallpaper/$file -tint "#3c6f86"
+		sleep 0.1
+	done
+	hsetroot -fill $WALLPAPER -tint "#9ccfe6"
+}
+main () {
+	wallpaperpick
+}
+main
+notify-send "Wallpaper Refreshed " " $SHORTWALLPAPER is wallpaper"

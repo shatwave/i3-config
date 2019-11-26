@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Just a wrapper script to launch dmenu
+# If you're on Debian, please enable the dmenu.xft first
+# sudo update-alternatives --set dmenu /usr/bin/dmenu.xft
+# Cheers! Addy
+
+dmenu_run -i -b \
+-p "Search" \
+-fn "-*-rissole-*" \
+-nb '#141c21' -nf '#93a1a1' \
+-sb '#d12f2c' -sf '#141c21'
