@@ -42,7 +42,7 @@ bindsym $super+d exec rofi -lines 12 -padding 18 -width 60 -location 0 -show dru
 # common apps keybinds
 #bindsym $super+Shift+m exec --no-startup-id mplayer tv:// -tv driver=v4l2:width=280:height=180 -vo xv;focus
 #bindsym $super+Shift+w exec firefox;workspace $2;focus
-#bindsym $super+Shift+a exec audacious;focus
+bindsym $super+Shift+a exec audacious;focus
 #bindsym XF86Tools	exec --no-startup-id urxvt -e ncmpcpp
 bindsym $super+l exec "i3lock-fancy -f Source-Sans-Pro"
 bindsym Print exec scrot 'Cheese_%a-%d%b%y_%H.%M.png' -e 'viewnior ~/$f'
@@ -95,7 +95,8 @@ bindsym $super+c kill
 bindsym Cancel kill
 
 #STOP/HIDE EVERYTHING:
-bindsym $super+Shift+Delete exec --no-startup-id mpc pause ; exec --no-startup-id pauseallmpv; workspace 6;
+bindsym $super+Shift+Delete exec --no-startup-id mpc pause ; exec --no-s    tartup-id pauseallmpv; workspace $9;
+
 
 
 # change focus
@@ -246,10 +247,6 @@ bar {
 
 }
 
-# In case You prefer Lemonbar
-#    bar {
-#        i3bar_command ~/.config/i3/lemonbar/i3_lemonbar.sh
-#		}
 
 # Start Polybar
 #exec_always --no-startup-id ~/.config/polybar/launch.sh
@@ -262,6 +259,7 @@ mode "resize" {
         bindsym Up resize shrink height 5 px or 5 ppt
         bindsym Right resize grow width 5 px or 5 ppt
         bindsym Return mode "default"
+
 }
 # window rules, you can find the window class using xprop
 for_window [class=".*"] border pixel 2
