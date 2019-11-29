@@ -1,18 +1,3 @@
--- Informant Conky
-
--- By Addy
--- https://plus.google.com/+AdhiPambudi
--- http://addy-dclxvi.deviantart.com/
--- https://github.com/addy-dclxvi
-
-
--- For commands above TEXT check:
--- http://conky.sourceforge.net/config_settings.html
-
--- For commands available below TEXT check:
--- http://conky.sourceforge.net/variables.html
-
-
 conky.config = {
 --##  Begin Window Settings  #####################
 own_window = true,

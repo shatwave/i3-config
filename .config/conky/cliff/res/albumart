@@ -1,5 +1,5 @@
 #! /bin/bash
-	MUSIC_DIR=/media/addy/Media/musik/
+	MUSIC_DIR=~/Music
 	COVER=/tmp/cover2.png
     
 {	album="$(mpc --format %album% current)"
