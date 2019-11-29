@@ -13,7 +13,7 @@ close_dialog_add=TRUE
 eq_preset_win=535,249,288,218
 equalizer_win=533,214,293,288
 filebrowser_win=198,-2,1014,635
-filesel_path=/home/cyberpunk_7/Music
+filesel_path=~/Music
 info_win=398,178,560,459
 url_opener_win=484,258,384,197
 
@@ -47,9 +47,6 @@ item6_name=Album Art
 item6_pos=-1,101,0,159,164
 item_count=7
 
-[history]
-entry0=http://srv2.mihan.xyz/s1/FullAlbum/Irani/Amin%20Fayyaz/Amin%20Fayyaz%20&%20Mostafa%20Fattahi%20-%20Omidvaram%20[1387]/Amin_Fayyaz_Mostafa_Fattahi-01.omidvaram.mp3
-entry1=http://srv2.mihan.xyz/s1/FullAlbum/Irani/Amin%20Fayyaz/Amin%20Fayyaz%20&%20Mostafa%20Fattahi%20-%20Omidvaram%20[1387]/
 
 [skins]
 mainwin_font=Noto Sans 8
