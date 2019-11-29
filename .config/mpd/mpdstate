@@ -1,0 +1,60 @@
+sw_volume: 96
+audio_device_state:1:pulse audio
+audio_device_state:1:my_fifo
+audio_device_state:0:Alsa for audio sound card
+state: play
+current: 26
+time: 4.052000
+random: 0
+repeat: 1
+single: 1
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Alireza Talischi/Alireza Talischi - 175(KhobanMusic).mp3
+1:Alireza Talischi/Alireza Talischi - Age Bedooni(KhobanMusic).mp3
+2:Alireza Talischi/Alireza Talischi - Ahange Ghamgin(KhobanMusic).mp3
+3:Alireza Talischi/Alireza Talischi - Akharesh Ghashange(KhobanMusic).mp3
+4:Alireza Talischi/Alireza Talischi - Ay Dele Khodam(KhobanMusic).mp3
+5:Alireza Talischi/Alireza Talischi - Azizi(KhobanMusic).mp3
+6:Alireza Talischi/Alireza Talischi - Be Khodam Bad Kardam(Ft-Saeed-Atani)(KhobanMusic).mp3
+7:Alireza Talischi/Alireza Talischi - Begoo Na(KhobanMusic).mp3
+8:Alireza Talischi/Alireza Talischi - Cheghadr Dir(KhobanMusic).mp3
+9:Alireza Talischi/Alireza Talischi - Daghigheham(KhobanMusic).mp3
+10:Alireza Talischi/Alireza Talischi - Delam Pishe Toe(KhobanMusic).mp3
+11:Alireza Talischi/Alireza Talischi - Delgiram(KhobanMusic).mp3
+12:Alireza Talischi/Alireza Talischi - Deli(KhobanMusic).mp3
+13:Alireza Talischi/Alireza Talischi - Delkhosham Be Chit(KhobanMusic).mp3
+14:Alireza Talischi/Alireza Talischi - Divooneye Doos Dashtani(KhobanMusic).MP3
+15:Alireza Talischi/Alireza Talischi - Etefaghi Didamet(KhobanMusic).mp3
+16:Alireza Talischi/Alireza Talischi - Ey Daad Bar Man (KhobanMusic).mp3
+17:Alireza Talischi/Alireza Talischi - Gharar Nabood(KhobanMusic).mp3
+18:Alireza Talischi/Alireza Talischi - Haghame(KhobanMusic).mp3
+19:Alireza Talischi/Alireza Talischi - Halghe(KhobanMusic).mp3
+20:Alireza Talischi/Alireza Talischi - Hame Donyam Toei(KhobanMusic).mp3
+21:Alireza Talischi/Alireza Talischi - In Zemestounam Tamum Shod(KhobanMusic).mp3
+22:Alireza Talischi/Alireza Talischi - Kasi Ke Dige Raft(KhobanMusic).mp3
+23:Alireza Talischi/Alireza Talischi - Man Hamoonam(KhobanMusic).mp3
+24:Alireza Talischi/Alireza Talischi - Man o Daryaab(KhobanMusic).mp3
+25:Alireza Talischi/Alireza Talischi - Miram Peye Kaaram(KhobanMusic).mp3
+26:Alireza Talischi/Alireza Talischi - Moohat (KhobanMusic).mp3
+27:Alireza Talischi/Alireza Talischi - Nabashi Pisham (KhobanMusic).mp3
+28:Alireza Talischi/Alireza Talischi - Nafase Ki Budi To(KhobanMusic).mp3
+29:Alireza Talischi/Alireza Talischi - Narahate Ghalbam(KhobanMusic).mp3
+30:Alireza Talischi/Alireza Talischi - Nemikhamet (KhobanMusic).mp3
+31:Alireza Talischi/Alireza Talischi - Rad Dadeh Boodi (KhobanMusic).mp3
+32:Alireza Talischi/Alireza Talischi - Ruberuye Man(KhobanMusic).mp3
+33:Alireza Talischi/Alireza Talischi - Sahel(KhobanMusic).mp3
+34:Alireza Talischi/Alireza Talischi - Sakhtgir(KhobanMusic).mp3
+35:Alireza Talischi/Alireza Talischi - Siaah(KhobanMusic).mp3
+36:Alireza Talischi/Alireza Talischi - Taghvim(KhobanMusic).mp3
+37:Alireza Talischi/Alireza Talischi - To Fekr Mikoni Kiee(KhobanMusic).mp3
+38:Alireza Talischi/Alireza Talischi - To Kenare Oon Khoshi(KhobanMusic).mp3
+39:Alireza Talischi/Alireza Talischi - Vabastegi(KhobanMusic).mp3
+40:Alireza Talischi/Alireza Talischi - Vaghti Hasti(KhobanMusic).mp3
+41:Alireza Talischi/Alireza Talischi - Yek Darsad(KhobanMusic).mp3
+42:Alireza Talischi/Alireza Talischi - Zakhmaye Man(KhobanMusic).mp3
+43:Alireza Talischi/Alireza Talischi - Zendegi Joonam(khobanmusic).mp3
+playlist_end

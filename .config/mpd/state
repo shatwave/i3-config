@@ -1,0 +1,27 @@
+sw_volume: 98
+audio_device_state:1:pulse audio
+audio_device_state:1:toggle_visualizer
+state: pause
+current: 1
+time: 13.546000
+random: 0
+repeat: 0
+single: 1
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Hamid Askari - Khoshbakhti[128]/Hamid Askari - Khoshbakhti[128]/01 Kheli Doset Daram.mp3
+1:Hamid Askari - Khoshbakhti[128]/Hamid Askari - Khoshbakhti[128]/02 Khoda Hafez Eshghe Man.mp3
+2:Hamid Askari - Khoshbakhti[128]/Hamid Askari - Khoshbakhti[128]/03 Havaye Geryeh.mp3
+3:Hamid Askari - Khoshbakhti[128]/Hamid Askari - Khoshbakhti[128]/04 Bezan Baron.mp3
+4:Hamid Askari - Khoshbakhti[128]/Hamid Askari - Khoshbakhti[128]/05 Khoshbakhti.mp3
+5:Hamid Askari - Khoshbakhti[128]/Hamid Askari - Khoshbakhti[128]/06 Taghas.mp3
+6:Hamid Askari - Khoshbakhti[128]/Hamid Askari - Khoshbakhti[128]/07 Ahangi Ke Dost Dashti.mp3
+7:Hamid Askari - Khoshbakhti[128]/Hamid Askari - Khoshbakhti[128]/08 Rozegar.mp3
+8:Hamid Askari - Khoshbakhti[128]/Hamid Askari - Khoshbakhti[128]/09 Bego Doset Dari.mp3
+9:Hamid Askari - Khoshbakhti[128]/Hamid Askari - Khoshbakhti[128]/10 Soe Zan.mp3
+10:Hamid Askari - Khoshbakhti[128]/Hamid Askari - Khoshbakhti[128]/11 Eshghe Ye Tarafe.mp3
+11:Hamid Askari - Khoshbakhti[128]/Hamid Askari - Khoshbakhti[128]/12 Kheli Doset Dashtam ( Bi Kalam).mp3
+playlist_end
