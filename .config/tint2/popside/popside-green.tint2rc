@@ -160,7 +160,7 @@ ac_disconnected_cmd =
 #-------------------------------------
 # Button 1
 button = new
-button_icon = /home/addy/.config/tint2/popside/icons/search-green.png
+button_icon = ~/.config/tint2/popside/icons/search-green.png
 button_text = Search
 button_lclick_command = rofi -modi run,drun,window -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font "Noto Sans 8"
 button_rclick_command = 

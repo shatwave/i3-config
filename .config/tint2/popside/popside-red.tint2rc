@@ -24,7 +24,7 @@ border_width = 0
 border_sides = TBLR
 border_content_tint_weight = 0
 background_content_tint_weight = 0
-background_color = #2F343F 86
+background_color = #ffffff 86
 border_color = #ffffff 86
 background_color_hover = #000000 0
 border_color_hover = #000000 0
@@ -33,7 +33,7 @@ border_color_pressed = #000000 0
 
 #-------------------------------------
 # Panel
-panel_items = PTS
+panel_items = PT
 panel_size = 95% 50
 panel_margin = 0 4
 panel_padding = 8 8 0
@@ -90,8 +90,8 @@ task_font = Noto Sans 8
 task_tooltip = 0
 task_thumbnail = 0
 task_thumbnail_size = 210
-task_font_color = #FFFFFF 100
-task_active_font_color = #FB807F 100
+task_font_color = #2f343f 36
+task_active_font_color = #2f343f 100
 task_background_id = 2
 mouse_left = toggle_iconify
 mouse_middle = none
@@ -101,12 +101,12 @@ mouse_scroll_down = none
 
 #-------------------------------------
 # System tray (notification area)
-systray_padding = 12 4 2
+systray_padding = 0 0 0
 systray_background_id = 0
 systray_sort = ascending
-systray_icon_size = 24
+systray_icon_size = 0
 systray_icon_asb = 100 0 0
-systray_monitor = 1
+systray_monitor = primary
 systray_name_filter = 
 
 #-------------------------------------
@@ -162,8 +162,7 @@ ac_disconnected_cmd =
 button = new
 button_icon = ~/.config/tint2/popside/icons/search-red.png
 button_text = Search
-button_lclick_command =~/.config/tint2/popside/launch
-#button_lclick_command = rofi -modi run,drun,window -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font "Noto Sans 8"
+button_lclick_command = rofi -modi run,drun,window -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font "Noto Sans 8"
 button_rclick_command = 
 button_mclick_command = 
 button_uwheel_command = 
