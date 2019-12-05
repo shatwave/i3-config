@@ -112,3 +112,15 @@ exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pa-applet
 exec --no-startup-id mpd
 ```
+
+That's my window rules. I use it to group apps on several workspace.
+
+- Workspace 1 for Terminals
+- Workspace 2 for Web
+- Workspace 3 for File Manager
+- Workspace 4 for Code
+- Workspace 5 for Office
+- Workspace 6 for Chat-Email
+- Workspace 7 for Multimedia
+- Workspace 8 for Desing
+- Workspace 9 for Settings <br />
