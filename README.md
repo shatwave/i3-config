@@ -222,6 +222,3 @@ order += "volume master"
 order += "tztime local"
 ```
 
-## That's For Now
-I think, this is quite enough for a starter. You can improve it by yourself. <br />
-Thanks for reading! :blush:
