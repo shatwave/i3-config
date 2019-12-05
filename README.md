@@ -1,4 +1,4 @@
-##پیش نمایش
+## پیش نمایش
 <div align="center">
     <img src="/preview-clean.png"</img> 
 </div>
