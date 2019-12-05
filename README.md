@@ -36,7 +36,7 @@ Start Page, start-page on Firefox <br />
 - **Image Viewer :** Viewnior
 - **Screenshooter :** scrot
 - **Web Browser :** Firefox
-- **Terminal :** URxvt
+- **Terminal :** URxvt , Termite
 - **Terminal Font :** Iosevka
 - **CLI Text Editor :** Vim
 - **GUI Text Editor :** Geany
@@ -87,8 +87,12 @@ My keybind is pretty weird, I'm more focus on easy to memorize <br />
 - **Super + Shift + A :** Audacious
 - **Super + Shift + F:** Thunra
 - **Super + Shift + G :** Geany
- 
-
+ - **Super + Shift +T :** Telegram
+ - **Super + Shift + C :** Calculator
+ - **Alt + R :** Gmrun
+ - **Super + Shift + M :** WebCame
+ - **Super + Shift + V :** Vim
+ - **Super + Print :** Screenshot
 ## Volume
 ```
 bindsym XF86AudioRaiseVolume exec amixer -q set Master 5%+
