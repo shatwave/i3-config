@@ -10,4 +10,4 @@
 <div align="center">
     <img src="/preview-splitscreen.png"</img> 
 </div>
-**Splitscreen** , Vim on the left , Ncmpcpp on the top right , Cava on the buttom right </br>
+**Splitscreen**, Vim on the left , Ncmpcpp on the top right , Cava on the buttom right </br>
