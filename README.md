@@ -1,22 +1,22 @@
 ## Preview
 <div align="center">
-    <img src="/preview-clean.png"</img> 
+    <img src="/preview-/preview-clean.png"</img> 
 </div> <br />
 Clean, without any opened app. Only i3status is visible <br /><br />
 <div align="center">
-    <img src="/rofi.png"</img> 
+    <img src="/preview/preview-rofi.png"</img> 
 </div>
 Rofi, for launching apps <br /><br />
 <div align="center">
-    <img src="/preview-splitscreen.png"</img> 
+    <img src="/preview/preview-splitscreen.png"</img> 
 </div>
 Splitscreen, Vim on the left , Ncmpcpp on the top right , Cava on the buttom right </br><br />
 <div align="center">
-    <img src="/preview-floating.png"</img> 
+    <img src="/preview/preview-floating.png"</img> 
 </div>
 Floating, for show-off. <br /><br />
 <div align="center">
-    <img src="/start-page.png"</img> 
+    <img src="/preview/start-page.png"</img> 
 </div>
 Start Page, start-page on Firefox <br />
 
@@ -89,10 +89,11 @@ My keybind is pretty weird, I'm more focus on easy to memorize <br />
 - **Super + Shift + G :** Geany
  - **Super + Shift +T :** Telegram
  - **Super + Shift + C :** Calculator
- - **Alt + R :** Gmrun
  - **Super + Shift + M :** WebCame
  - **Super + Shift + V :** Vim
  - **Super + Print :** Screenshot
+  - **Alt + R :** Gmrun
+  <br />
 ## Volume
 ```
 bindsym XF86AudioRaiseVolume exec amixer -q set Master 5%+
