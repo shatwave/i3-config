@@ -2,23 +2,23 @@
 <div align="center">
     <img src="/preview/preview-clean.png"</img> 
 </div> <br />
-Clean, without any opened app. Only i3status is visible <br /><br />
+**Clean**, without any opened app. Only i3status is visible <br /><br />
 <div align="center">
     <img src="/preview/preview-rofi.png"</img> 
 </div>
-Rofi, for launching apps <br /><br />
+**Rofi**, for launching apps <br /><br />
 <div align="center">
     <img src="/preview/preview-splitscreen.png"</img> 
 </div>
-Splitscreen, Vim on the left , Ncmpcpp on the top right , Cava on the buttom right </br><br />
+**Splitscreen**, Vim on the left , Ncmpcpp on the top right , Cava on the buttom right </br><br />
 <div align="center">
     <img src="/preview/preview-floating.png"</img> 
 </div>
-Floating, for show-off. <br /><br />
+**Floating**, for show-off. <br /><br />
 <div align="center">
     <img src="/preview/start-page.png"</img> 
 </div>
-Start Page, start-page on Firefox <br />
+**Start Page**, start-page on Firefox <br />
 
 
 
