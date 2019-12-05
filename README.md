@@ -84,10 +84,10 @@ My keybind is pretty weird, I'm more focus on easy to memorize <br />
 
 ## launching apps
 <br />
-- **Super + Shift + w** Firefox
-- **Super + Shift + a** Audacious
-- **Super + Shift + f** Thunra
-- **Super + Shift + g** Geany
+- Super + Shift + w Firefox
+- Super + Shift + a Audacious
+- Super + Shift + f Thunra
+- Super + Shift + g Geany
  
 ## Volume
 ```
