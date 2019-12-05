@@ -83,12 +83,12 @@ My keybind is pretty weird, I'm more focus on easy to memorize <br />
 <br />
 
 ## launching apps
-<br />
- **Super + Shift + w** Firefox
- **Super + Shift + a** Audacious
- **Super + Shift + f** Thunra
- **Super + Shift + g** Geany
+- **Super + Shift + W :** Firefox
+- **Super + Shift + A :** Audacious
+- **Super + Shift + F:** Thunra
+- **Super + Shift + G :** Geany
  
+
 ## Volume
 ```
 bindsym XF86AudioRaiseVolume exec amixer -q set Master 5%+
@@ -108,16 +108,6 @@ bindsym XF86AudioPrev exec playerctl previous
 bindsym Shift+XF86AudioPlay               exec --no-startup-id "mpc toggle"
 bindsym Shift+XF86AudioNext               exec --no-startup-id "mpc next"
 bindsym Shift+XF86AudioPrev               exec --no-startup-id "mpc prev"
-```
-## Auto Start
-```
-exec --no-startup-id hsetroot -full ~/.wallpaper.jpg
-#exec --no-startup-id nm-applet
-exec --no-startup-id xsettingsd &
-exec --no-startup-id compton -b
-exec --no-startup-id xfce4-power-manager
-exec --no-startup-id pa-applet
-exec --no-startup-id mpd
 ```
 
 That's my window rules. I use it to group apps on several workspace.
