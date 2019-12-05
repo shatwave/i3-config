@@ -18,11 +18,11 @@ Floating, for show-off. <br /><br />
 <div align="center">
     <img src="/preview/start-page.png"</img> 
 </div>
-Start Page, start-page on Firefox <br />
+Start Page, start-page on Firefox <br /><br />
 <div align="center">
     <img src="/preview/lock.png"</img>
 </div>
-Lock Page
+Lock Page <br />
 
 
 ## Details
