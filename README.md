@@ -96,9 +96,9 @@ My keybind is pretty weird, I'm more focus on easy to memorize <br />
 
   <br />
   
-  - **~/.config/i3/config** <br />
+ ## ~/.config/i3/confi <br />
   
-## Volume
+**Volume**
  I use Amixer to change my volume. If it doesn't work for You, change it with Pactl, Pamixer, or anything else.
 ```
 bindsym XF86AudioRaiseVolume exec amixer -q set Master 5%+
@@ -106,20 +106,20 @@ bindsym XF86AudioLowerVolume exec amixer -q set Master 5%+
 bindsym XF86AudioMute exec amixer set Master toggle
 ```
 
-## Music Control GUI
+**Music Control GUI**
 ```
 bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioPause exec playerctl pause-pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 ```
-## Music Control Cli
+**Music Control Cli**
 ```
 bindsym Shift+XF86AudioPlay               exec --no-startup-id "mpc toggle"
 bindsym Shift+XF86AudioNext               exec --no-startup-id "mpc next"
 bindsym Shift+XF86AudioPrev               exec --no-startup-id "mpc prev"
 ```
-## Auto Start
+**Auto Start**
 Maybe You want to add some programs to your autostart, like network manager applet, clipboard manager, power manager, conky, and some goodies.
 Probably your network manager applet is nm-applet. So, if want to use it, add `exec --no-startup-id nm-applet`.
 ```
@@ -128,7 +128,7 @@ exec --no-startup-id hsetroot -center ~/.wallpaper.png
 exec --no-startup-id xsettingsd &
 exec --no-startup-id compton -b
 ```
-
+**Workspace**<br />
 That's my window rules. I use it to group apps on several workspace.
 
 - Workspace 1 for Terminals
@@ -159,6 +159,9 @@ for_window [class=Viewnior|feh|Telegram|Ramme|MPlayer|File-roller|Lxappearance|L
 for_window [class=URxvt|Firefox|Geany|Evince|Soffice|libreoffice*|mpv|Ghb|Xfburn|Gimp*|Inkscape|Vlc|Lxappearance|Audacity] focus
 for_window [class=Xfburn|GParted|System-config-printer.py|Lxtask|Pavucontrol|Exo-helper*|Lxrandr|Arandr] focus
 ```
+
+**i3-status**<br />
+
 That's my panel colour. I set it has a black background, with white color for workspace name.
 Active workspace is highlighted by red colour, and urgent workspace will be highlighted with yellow colour.
 If one of your workspaces is highlighted with yello
@@ -203,7 +206,7 @@ client.background		#2f343f
 
 ```
 
-- **~/.config/i3status/config** <br />
+## ~/.config/i3status/config <br />
 
 You can comment out the module You want to disable. For example I disable the disk, ethernet, and battery. <br />
 Then now You have to configure the variable. Don't forget to change both in *order* list and in function list. <br />
@@ -219,6 +222,3 @@ order += "volume master"
 order += "tztime local"
 ```
 
-## That's For Now
-I think, this is quite enough for a starter. You can improve it by yourself. <br />
-Thanks for reading! :blush:
