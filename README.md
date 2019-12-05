@@ -91,10 +91,15 @@ My keybind is pretty weird, I'm more focus on easy to memorize <br />
  - **Super + Shift + C :** Calculator
  - **Super + Shift + M :** WebCame
  - **Super + Shift + V :** Vim
- - **Super + Print :** Screenshot
   - **Alt + R :** Gmrun
+ - **Print :** Screenshot
+
   <br />
+  
+  - **~/.config/i3/config** <br />
+  
 ## Volume
+ I use Amixer to change my volume. If it doesn't work for You, change it with Pactl, Pamixer, or anything else.
 ```
 bindsym XF86AudioRaiseVolume exec amixer -q set Master 5%+
 bindsym XF86AudioLowerVolume exec amixer -q set Master 5%+
@@ -114,6 +119,15 @@ bindsym Shift+XF86AudioPlay               exec --no-startup-id "mpc toggle"
 bindsym Shift+XF86AudioNext               exec --no-startup-id "mpc next"
 bindsym Shift+XF86AudioPrev               exec --no-startup-id "mpc prev"
 ```
+## Auto Start
+Maybe You want to add some programs to your autostart, like network manager applet, clipboard manager, power manager, conky, and some goodies.
+Probably your network manager applet is nm-applet. So, if want to use it, add `exec --no-startup-id nm-applet`.
+```
+#autostart
+exec --no-startup-id hsetroot -center ~/.wallpaper.png
+exec --no-startup-id xsettingsd &
+exec --no-startup-id compton -b
+```
 
 That's my window rules. I use it to group apps on several workspace.
 
@@ -126,3 +140,85 @@ That's my window rules. I use it to group apps on several workspace.
 - Workspace 7 for Multimedia
 - Workspace 8 for Desing
 - Workspace 9 for Settings <br />
+
+And I set some apps to launch in floating mode. You can make your own rules of course.
+Maybe my window rules isn't efficient for You. My workspaces are 9, and it's than enough for me. 
+```
+# window rules, you can find the window class using xprop
+for_window [class=".*"] border pixel 2
+assign [class=URxvt] $1
+assign [class=Opera|firefox|Uget|Transmission-gtk] $2
+assign [class=Thunar|File-roller] $3
+assign [class=Geany] $4
+assign [class=Mousepad|soffice|libreoffice*|Evince] $5
+assign [class=Telegram|Thunderbird] $6
+assign [class=Audacity|Vlc|Audacious|mpv|Xfburn] $7
+assign [class=Gimp*|Inkscape] $8
+assign [class=Lxappearance|System-config-printer.py|Lxtask|GParted|qt*|Kvantum*|Pavucontrol|Exo-helper*|Lxrandr|Arand|Nitrogen|Gnome-disks] $9
+for_window [class=Viewnior|feh|Telegram|Ramme|MPlayer|File-roller|Lxappearance|Lxtask|Pavucontrol|XTerm|calculator] floating enable
+for_window [class=URxvt|Firefox|Geany|Evince|Soffice|libreoffice*|mpv|Ghb|Xfburn|Gimp*|Inkscape|Vlc|Lxappearance|Audacity] focus
+for_window [class=Xfburn|GParted|System-config-printer.py|Lxtask|Pavucontrol|Exo-helper*|Lxrandr|Arandr] focus
+```
+That's my panel colour. I set it has a black background, with white color for workspace name.
+Active workspace is highlighted by red colour, and urgent workspace will be highlighted with yellow colour.
+If one of your workspaces is highlighted with yello
+```
+#i3-status
+bar {
+	colors {
+        background #2f343f
+        statusline #d8dee8
+        #statusline #2f343f
+        separator #4b5262
+        
+		# colour of border, background, and text
+        focused_workspace	#BF616A	#BF616A	#d8dee8
+        active_workspace	#2f343f	#2f343f	#d8dee8
+        inactive_workspace	#2f343f	#2f343f	#d8dee8
+        urgent_workspace	#2f343f	#ebcb8b	#2f343f
+    }
+        status_command i3status
+        strip_workspace_numbers yes
+        position bottom
+        #position top
+        height 25
+		#mode hide
+}
+```
+That's my settings of window border colour. 
+I set the focused window border to white, and unfocused window border to black.
+On focused window, the red border means splitting direction. 
+If the red border is on the right, that means if You launch a new window on that workspace, it will be launched on the right of current focused window.
+You can change the splitting direction to bottom using **Super + V**. If You want to split to right again, hit **Super + H**.
+If You unsatisfied with it, just modify it 
+
+```
+# colour of border, background, text, indicator, and child_border
+client.focused			#bf616a #2f343f #d8dee8 #d8dee8 #bf616a 
+client.focused_inactive	#2f343f #2f343f #d8dee8 #2f343f #2f343f
+client.unfocused		#2f343f #2f343f #d8dee8 #2f343f #2f343f
+client.urgent			#2f343f #2f343f #d8dee8 #2f343f #2f343f
+client.placeholder		#2f343f #2f343f #d8dee8 #2f343f #2f343f
+client.background		#2f343f
+
+```
+
+- **~/.config/i3status/config** <br />
+
+You can comment out the module You want to disable. For example I disable the disk, ethernet, and battery. <br />
+Then now You have to configure the variable. Don't forget to change both in *order* list and in function list. <br />
+```
+order += "load"
+order += "cpu_temperature 0"
+#order += "disk /"
+#order += "disk /home"
+#order += "ethernet enp1s0"
+order += "wireless wlp2s0"
+order += "volume master"
+#order += "battery 1"
+order += "tztime local"
+```
+
+## That's For Now
+I think, this is quite enough for a starter. You can improve it by yourself. <br />
+Thanks for reading! :blush:
