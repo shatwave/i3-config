@@ -80,3 +80,35 @@ My keybind is pretty weird, I'm more focus on easy to memorize <br />
 - **Super + L** Lockscreen. To unlock, type your user password then hit Enter
 - **Super + Shift + R** Fully reload the configuration file. Hit this after do some modifications in the config file
 - More keybind look on the configuration file.
+<br />
+
+## Volume
+```
+bindsym XF86AudioRaiseVolume exec amixer -q set Master 5%+
+bindsym XF86AudioLowerVolume exec amixer -q set Master 5%+
+bindsym XF86AudioMute exec amixer set Master toggle
+```
+
+## Music Control GUI
+```
+bindsym XF86AudioPlay exec playerctl play-pause
+bindsym XF86AudioPause exec playerctl pause-pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
+```
+## Music Control Cli
+```
+bindsym Shift+XF86AudioPlay               exec --no-startup-id "mpc toggle"
+bindsym Shift+XF86AudioNext               exec --no-startup-id "mpc next"
+bindsym Shift+XF86AudioPrev               exec --no-startup-id "mpc prev"
+```
+## Auto Start
+```
+exec --no-startup-id hsetroot -full ~/.wallpaper.jpg
+#exec --no-startup-id nm-applet
+exec --no-startup-id xsettingsd &
+exec --no-startup-id compton -b
+exec --no-startup-id xfce4-power-manager
+exec --no-startup-id pa-applet
+exec --no-startup-id mpd
+```
