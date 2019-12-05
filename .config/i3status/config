@@ -66,6 +66,6 @@ battery 1 {
 }
 tztime local {
 		format = " %time "
-		format_time = " %a %-d %b  %H:%M"
+		format_time = " %a %-d %b  %H:%Mi (%p)"
 }
 
