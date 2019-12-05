@@ -12,5 +12,6 @@
 </div>
 **Splitscreen** , Vim on the left , Ncmpcpp on the top right , Cava on the buttom right </br>
 <div align="center">
-    <img src="/preview-splitscreen.png"</img> 
+    <img src="/preview-preview-floating.png"</img> 
 </div>
+**Floating**, for show-off. <br />
