@@ -2,11 +2,11 @@
 <div align="center">
     <img src="/preview-clean.png"</img> 
 </div> <br />
-**Clean**, without any opened app. Only i3status is visible <br /><br />
+Clean, without any opened app. Only i3status is visible <br /><br />
 <div align="center">
     <img src="/rofi.png"</img> 
 </div>
-Rofi,, for launching apps <br /><br />
+Rofi, for launching apps <br /><br />
 <div align="center">
     <img src="/preview-splitscreen.png"</img> 
 </div>
@@ -22,44 +22,44 @@ Start Page, start-page on Firefox <br />
 
 
 
-## Installation
+## Details
+- **Desktop Environment :** None
+- **Graphical Server :** Xorg Minimal
+- **Touchpad Driver :** Synaptics
+- **Display Manager :** autox
+- **Window Manager** : I3
+- **Panel :** I3-status
+- **Wallpaper Handler :** hsetroot
+- **Program Launcher** : Rofi
+- **Settings Daemon** : xsettingsd
+- **File Manager :** Thunar
+- **Image Viewer :** Viewnior
+- **Screenshooter :** scrot
+- **Web Browser :** Firefox
+- **Terminal :** URxvt
+- **Terminal Font :** Iosevka
+- **CLI Text Editor :** Vim
+- **GUI Text Editor :** Geany
+- **CLI Music Player :** ncmpcpp
+- **GUI Music Player :** Audacious
+- **Multimedia Player :** Mpv
+- **Encoder/Decoder :** ffmpeg
+- **PDF Reader :** Evince
+- **Archive Manager :** File Roller
+- **IRC Client :** weechat
+- **GTK Engine :** Murrine
+- **GTK Theme :** Fantom
+- **GTK Icons :** Audacious
+- **GTK Cursors :** Breeze Snow
+- **GTK Font :** Noto Sans
+- **CLI Shell :** Zsh
+- **Notification Daemon :** Dunst
+- **Sound Mixer :** ALSA
+- **Task Manager :** htop
+- **Init :** runit
+- **SystemD :** No
+- **C Library :** GLibC
 
-    Graphical Server : Xorg Minimal
-    Video Driver : xf86-video-amd
-    Touchpad Driver : Realtek
-    Display Manager : lightdm
-    Window Manager : I3
-    Panel : i3status , polybar
-    Wallpaper Handler : hsetroot
-    Program Launcher : Rofi
-    Settings Daemon : xsettingsd
-    File Manager : Thunar
-    Image Viewer : Viewnior
-    Screenshooter : scrot
-    Web Browser : Firefox
-    Terminal : URxvt
-    Terminal Font :  Iosevka
-    CLI Text Editor : Vim
-    GUI Text Editor : Geany
-    CLI Music Player : ncmpcpp
-    GUI Music Player : Audacious
-    Multimedia Player : Mpv
-    Encoder/Decoder : ffmpeg
-    PDF Reader : Evince
-    Archive Manager : File Roller
-    IRC Client : weechat
-    GTK Engine : Murrine
-    GTK Theme : Fantome
-    GTK Icons : Newaita
-    GTK Cursors : Breeze
-    GTK Font : Isoveka
-    CLI Shell : Zsh
-    Notification Daemon : Dunst
-    Sound Mixer : Pulse audio
-    Task Manager : htop
-    Init : runit
-    SystemD : No
-    C Library : GLibC
 
 ## Some Cheatsheet
 My keybind is pretty weird, I'm more focus on easy to memorize <br />
@@ -76,7 +76,7 @@ My keybind is pretty weird, I'm more focus on easy to memorize <br />
 - **Control + Alt + Left/Right** Switch to previous or next workspace. Only works if You have 2 workspace opened
 - **Super + R** Resize mode. In resize mode, hit Arrow keys to do resizing. Hit Enter to back to normal mode
 - **Super + C** Close window
-- **Super + 0** Quit i3wm
+- **Super + Q** Quit i3wm
 - **Super + L** Lockscreen. To unlock, type your user password then hit Enter
 - **Super + Shift + R** Fully reload the configuration file. Hit this after do some modifications in the config file
 - More keybind look on the configuration file.
