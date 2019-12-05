@@ -1,5 +1,7 @@
 ## Preview
-<div align="center" img src="/preview-clean.png"</img />
+<div align="center">
+    img src="/preview-clean.png"</img>
+</div>
 **Clean**, without any opened app. Only i3status is visible 
 <br />
 <div align="center">
