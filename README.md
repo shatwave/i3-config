@@ -54,7 +54,7 @@ Lock Page <br />
 - **IRC Client :** weechat
 - **GTK Engine :** Murrine
 - **GTK Theme :** Fantom
-- **GTK Icons :** Audacious
+- **GTK Icons :** Papirus-Arc
 - **GTK Cursors :** Breeze Snow
 - **GTK Font :** Noto Sans
 - **CLI Shell :** Zsh
