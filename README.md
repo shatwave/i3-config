@@ -13,6 +13,8 @@ Rofi, for launching apps <br /><br />
 Splitscreen, Vim on the left , Ncmpcpp on the top right , Cava on the buttom right </br><br />
 <div align="center">
     <img src="/preview/preview-floating.png"</img> 
+    </br>
+    <img src="/preview/preview-floating-2.png"</img> 
 </div>
 Floating, for show-off. <br /><br />
 <div align="center">

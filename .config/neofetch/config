@@ -22,7 +22,7 @@ print_info() {
     info "Memory" memory
     info "Disk" disk
     info "Uptime" uptime
-    #info "Terminal" term
+    info "Terminal" term
     #info "Terminal Font" term_font
     info "Shell" shell
     #info "Resolution" resolution
@@ -31,11 +31,11 @@ print_info() {
     #info "WM Theme" wm_theme
     info "Theme" theme
     info "Icons" icons
-    info "CPU" cpu
-    info "GPU" gpu
+    #info "CPU" cpu
+    #info "GPU" gpu
     #info "CPU Usage" cpu_usage
     #info "Battery" battery
-    #info "Font" font
+    info "Font" font
     #info "Song" song
     #info "Local IP" local_ip
     #info "Public IP" public_ip
@@ -545,7 +545,7 @@ image_backend="w3m"
 # NOTE: 'auto' will pick the best image source for whatever image backend is used.
 #       In ascii mode, distro ascii art will be used and in an image mode, your
 #       wallpaper will be used.
-#image_source=~/.config/neofetch/arch-froly.png
+image_source=~/.config/neofetch/kasper.jpg
 
 
 # Ascii Options
@@ -621,7 +621,7 @@ crop_offset="center"
 # Values:  'auto', '00px', '00%', 'none'
 # Flags:   --image_size
 #          --size
-image_size="158"
+image_size="231"
 
 # Ggap between image and text
 #
@@ -637,8 +637,8 @@ gap=2
 # Values:  'px'
 # Flags:   --xoffset
 #          --yoffset
-yoffset=16
-xoffset=16
+yoffset=3
+xoffset=20
 
 # Image background color
 # Only works with the w3m backend.
