@@ -13,7 +13,7 @@ floating_modifier $super
 hide_edge_borders none
 
 #autostart
-exec --no-startup-id hsetroot -full ~/.wallpaper.jpg
+exec --no-startup-id hsetroot -fill ~/.wallpaper.jpg
 #exec --no-startup-id nm-applet
 #exec --no-startup-id pamac-tray
 exec --no-startup-id xsettingsd &
